@@ -33,6 +33,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #2c313f;
+}
+
+.blog a:hover {
+    color: #f2f2f2;
+}
+
 button {
     background-color: #efa700;
     border-bottom-left-radius: 65px;
@@ -52,18 +60,18 @@ button {
     text-transform: uppercase;
 }
 
-.services {
-    background-color: #f2f2f2;
-    padding-top: 10px;
-}
-
-h2 {
+h2:not(.blog h2) {
     color: #2c313f;
     text-transform: uppercase;
 }
 
 h3 {
     text-transform: uppercase;
+}
+
+.services {
+    background-color: #f2f2f2;
+    padding-top: 10px;
 }
 
 .services {
@@ -81,10 +89,19 @@ h3 {
 }
 
 .blog {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    opacity: .8;
     padding-top: 10px;
 }
 
 .blog p {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 30px;
     padding-left: 200px;
     padding-right: 200px;
 }

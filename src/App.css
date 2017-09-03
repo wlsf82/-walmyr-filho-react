@@ -60,6 +60,10 @@ button {
     text-transform: uppercase;
 }
 
+button:hover {
+    background-color: #2c313f;
+}
+
 h2:not(.blog h2) {
     color: #2c313f;
     text-transform: uppercase;

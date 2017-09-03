@@ -71,7 +71,10 @@ h3 {
 }
 
 .services div {
+    background-color: #fff;
+    border-radius: 5%;
     display: inline-block;
+    margin-right: 20px;
 	padding: 10px;
     vertical-align: text-top;
     width: calc(90% / 3);
@@ -89,6 +92,12 @@ h3 {
 .courses {
     background-color: #f2f2f2;
     padding-bottom: 30px;
+}
+
+.courses div {
+    background-color: #fff;
+    border-radius: 5%;
+    margin-right: 20px;
 }
 
 .courses h2 {
@@ -123,9 +132,12 @@ h3 {
 }
 
 .speaches div {
-    width: calc(90% / 2);
+    background-color: #fff;
+    border-radius: 5%;
     display: inline-block;
-	vertical-align: text-top;
+    margin-right: 20px;
+    vertical-align: text-top;
+    width: calc(90% / 2);
 }
 
 .left {

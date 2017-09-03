@@ -19,7 +19,7 @@
 
 .App-presentation {
     color: #7a7c84;
-    line-height: 200%;
+    line-height: 150%;
 	padding-top: 110px;
 }
 
@@ -83,7 +83,8 @@ h3 {
     border-radius: 5%;
     display: inline-block;
     margin-right: 20px;
-	padding: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
     vertical-align: text-top;
     width: calc(90% / 3);
 }
@@ -94,7 +95,7 @@ h3 {
     -o-background-size: cover;
     background-size: cover;
     color: #fff;
-    opacity: .8;
+    opacity: .9;
     padding-top: 10px;
 }
 

@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import bookImage from "./assets/bookImg.png"
 
 class Book extends PureComponent {
     render() {
@@ -9,6 +10,9 @@ class Book extends PureComponent {
                     <a href="https://www.casadocodigo.com.br/products/livro-protractor" target="_blank" rel="noopener noreferrer">Protractor - Lições sobre testes end-to-end automatizados</a>
                 </h3>
                 <p>Neste livro você irá encontrar uma coleção de práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
+                <a href="https://www.casadocodigo.com.br/products/livro-protractor" target="_blank" rel="noopener noreferrer">
+                    <img src={bookImage} />
+                </a>
             </div>
         );
     }

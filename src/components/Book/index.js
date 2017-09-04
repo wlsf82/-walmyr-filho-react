@@ -17,7 +17,7 @@ class Book extends PureComponent {
                 <p>Neste livro você irá encontrar uma coleção de práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
                 <Button>Compre o livro</Button>
                 <a href="https://www.casadocodigo.com.br/products/livro-protractor" target="_blank" rel="noopener noreferrer">
-                    <img src={bookImage} />
+                    <img src={bookImage} alt="Livro de Protractor"/>
                 </a>
             </div>
         );

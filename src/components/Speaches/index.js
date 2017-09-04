@@ -46,6 +46,9 @@ const rightSideSpeaches = [
     },
 ];
 
+const relValue = "noopener noreferrer";
+const targetValue = "_blank";
+
 class Speaches extends PureComponent {
     render() {
         return (
@@ -54,7 +57,7 @@ class Speaches extends PureComponent {
                 <div className="left">
                 { leftSideSpeaches.map(item =>
                     <h3>
-                        <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                        <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
                     </h3>
                 )}
 
@@ -62,7 +65,7 @@ class Speaches extends PureComponent {
                 <div className="right">
                 { rightSideSpeaches.map(item =>
                     <h3>
-                        <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                        <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
                     </h3>
                 )}
                 </div>

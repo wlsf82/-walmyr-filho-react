@@ -170,6 +170,10 @@ h1, h2, h3, button {
     width: calc(90% / 2);
 }
 
+.speaches h3 {
+    text-transform: none;
+}
+
 .left {
     border-right: 5px dotted #fff;
 }

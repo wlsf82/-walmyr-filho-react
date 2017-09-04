@@ -60,7 +60,6 @@ class Speaches extends PureComponent {
                         <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
                     </h3>
                 )}
-
                 </div>
                 <div className="right">
                 { rightSideSpeaches.map(item =>

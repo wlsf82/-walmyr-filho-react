@@ -16,13 +16,13 @@
     z-index: 100;
 }
 
-.App-presentation {
+.main-content {
     color: #7a7c84;
     line-height: 150%;
 	padding-top: 110px;
 }
 
-.App-presentation .introduction {
+.main-content .introduction {
     padding-bottom: 30px;
 	padding-top: 30px;
 }

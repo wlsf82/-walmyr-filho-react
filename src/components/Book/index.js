@@ -4,10 +4,6 @@ import bookImage from "./assets/bookImg.png"
 const bookUrl = "https://www.casadocodigo.com.br/products/livro-protractor";
 
 class Book extends PureComponent {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="book">

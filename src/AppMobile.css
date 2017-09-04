@@ -1,3 +1,108 @@
 @media only screen and (max-device-width: 650px) {
-	
+	h1 {
+		font-size: 150%;
+	}
+
+	.main-content {
+	    padding-top:110px;
+	}
+
+	.main-content .introduction {
+	    padding: 12px;
+	}
+
+	.services {
+		background-color: #fff;
+		padding-bottom: 0;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 0px;
+	}
+
+	.services h2 {
+		display: none;
+	}
+
+	.services div {
+		display:table-row;
+	    width: 90%;
+	}
+
+	.blog {
+		background-size: 0;
+	}
+
+	.blog p {
+		color: #7a7c84;
+	    margin-left: 0;
+	    margin-right: 0%;
+	    padding-bottom: 0;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 12px;
+	}
+
+	.courses {
+		background-color: #fff;
+		padding-bottom: 0;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 0px;
+	}
+
+	.courses div {
+		display:table-row;
+		padding: 12px;
+	    width: 90%;
+	}
+
+	.book {
+		padding: 12px;
+	}
+
+	.blog h2 {
+		color: #2c313f;
+	}
+
+	.courses {
+		padding: 0;
+	}
+
+	.book p {
+	    padding-bottom: 0;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	.book img {
+		padding-top: 12px;
+	    width: 90%;
+	}
+
+	.main-content .introduction,
+	.services,
+	.blog,
+	.courses,
+	.book {
+		border-bottom: 5px dotted #f2f2f2;
+	}
+
+	.speaches {
+		background-color: #fff;
+		padding: 12px;
+	}
+
+	.speaches div {
+		display:table-row;
+	}
+
+	.social img {
+		padding-right: 8px;
+	    padding-top: 35px;
+	    width: 9%;
+	}
+
+	button, .book button {
+		display: none;
+	}
 }

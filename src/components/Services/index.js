@@ -11,7 +11,7 @@ const services = [
     {
         id: uuid(),
         h3: "Consultoria",
-        p: "Ajudo empresas e profissionais a implementarem práticas de programação extrema, para que entreguem software de qualidade aos seus clientes",
+        p: "Ajudo empresas e profissionais a implementarem práticas de programação extrema para que entreguem software de qualidade aos seus clientes",
     },
     {
         id: uuid(),

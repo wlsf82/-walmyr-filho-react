@@ -18,7 +18,7 @@ const courses = [
         id: uuid(),
         href: "http://code-squad.com/curso/Curso-Protractor-Automacao-de-testes-end-to-end-para-aplicacoes-Angular-JS/avulso",
         title: "Protractor & AngularJS",
-        p: "Curso na plataforma do Code Squad sobre automação de testes para aplicações AngularJS com o framework Protractor",
+        p: "Curso no Code Squad sobre automação de testes para aplicações AngularJS com o framework Protractor",
     },
 ];
 

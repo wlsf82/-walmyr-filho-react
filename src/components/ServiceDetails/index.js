@@ -2,10 +2,11 @@ import React, { PureComponent } from "react";
 
 class ServiceDetails extends PureComponent {
     render() {
+        const { children } = this.props;
+
         return (
             <div className="main-content">
-                <h2>Foo</h2>
-                <p>foobarbaz</p>
+                <h2>{children}</h2>
             </div>
         );
     }

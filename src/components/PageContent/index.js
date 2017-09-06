@@ -30,7 +30,7 @@ class PageContent extends PureComponent {
                 <Speaches />
             </div> :
             <div className="service-details">
-                <ServiceDetails />
+                <ServiceDetails>{page}</ServiceDetails>
             </div>
         );
     }

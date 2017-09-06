@@ -7,6 +7,18 @@ class ServiceDetails extends PureComponent {
         return (
             <div className="main-content">
                 <h2>{children}</h2>
+                {(() => {
+                    switch (children) {
+                        case "foo":
+                            return <p>foobarbaz</p>;
+                        case "bar":
+                            return <p>barbazfoo</p>;
+                        case "baz":
+                            return <p>bazfoobar</p>;
+                        default:
+                            return null;
+                    }
+                })()}
             </div>
         );
     }

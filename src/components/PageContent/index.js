@@ -29,9 +29,7 @@ class PageContent extends PureComponent {
                 <Book />
                 <Speaches />
             </div> :
-            <div className="service-details">
-                <ServiceDetails>{page}</ServiceDetails>
-            </div>
+            <ServiceDetails>{page}</ServiceDetails>
         );
     }
 }

@@ -9,11 +9,11 @@ class ServiceDetails extends PureComponent {
                 <h2>{children}</h2>
                 {(() => {
                     switch (children) {
-                        case "foo":
+                        case "coaching":
                             return <p>foobarbaz</p>;
-                        case "bar":
+                        case "consultancy":
                             return <p>barbazfoo</p>;
-                        case "baz":
+                        case "development":
                             return <p>bazfoobar</p>;
                         default:
                             return null;

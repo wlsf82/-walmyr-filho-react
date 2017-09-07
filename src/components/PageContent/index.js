@@ -20,16 +20,16 @@ class PageContent extends PureComponent {
         const { page } = this.state;
 
         return (
-            page === "home" ?
-            <div className="main-content">
-                <Introduction />
-                <Services />
-                <Blog />
-                <Courses />
-                <Book />
-                <Speaches />
-            </div> :
-            <ServiceDetails>{page}</ServiceDetails>
+            page !== "home" ?
+                <ServiceDetails>{page}</ServiceDetails> :
+                <div className="main-content">
+                    <Introduction />
+                    <Services />
+                    <Blog />
+                    <Courses />
+                    <Book />
+                    <Speaches />
+                </div>
         );
     }
 }

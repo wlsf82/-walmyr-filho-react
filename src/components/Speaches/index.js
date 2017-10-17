@@ -27,14 +27,14 @@ const leftSideSpeaches = [
         href: "http://pt.slideshare.net/walmyrlimasilvafilho/protractor-visual-review-2",
         title: "TDC Porto Alegre 2015",
     },
-];
-
-const rightSideSpeaches = [
     {
         id: uuid(),
         href: "http://www.slideshare.net/walmyrlimasilvafilho/primeiros-passos-com-protractor-gutssc",
         title: "GUTS-SC Janeiro 2016",
     },
+];
+
+const rightSideSpeaches = [
     {
         id: uuid(),
         href: "http://www.slideshare.net/walmyrlimasilvafilho/protractor-style-guide-agile-testers-conference-2016",
@@ -54,6 +54,16 @@ const rightSideSpeaches = [
         id: uuid(),
         href: "https://www.slideshare.net/walmyrlimasilvafilho/estrategias-para-o-uso-de-integracao-e-entrega-continua-com-gocd",
         title: "Conferência Agile Testers 2017",
+    },
+    {
+        id: uuid(),
+        href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
+        title: "Agile Tour Kaunas 2017",
+    },
+    {
+        id: uuid(),
+        href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
+        title: "Agile Tour Vilnius 2017",
     },
 ];
 

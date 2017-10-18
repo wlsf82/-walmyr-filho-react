@@ -1,6 +1,10 @@
 {
   "name": "walmyr-filho-react",
   "version": "0.1.0",
+  "engines": {
+    "node": "6.11.3",
+    "npm": "5.4.0"
+  },
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

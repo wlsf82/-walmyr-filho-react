@@ -1,6 +1,7 @@
 {
   "name": "walmyr-filho-react",
   "version": "0.1.0",
+  "homepage" : "https://obscure-anchorage-18986.herokuapp.com/",
   "engines": {
     "node": "6.11.3",
     "npm": "5.4.0"

@@ -1,7 +1,7 @@
 {
   "name": "walmyr-filho-react",
-  "version": "0.1.0",
-  "homepage" : "https://obscure-anchorage-18986.herokuapp.com/",
+  "version": "1.0.0",
+  "main": "build/index.html",
   "engines": {
     "node": "6.11.3",
     "npm": "5.4.0"
@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm build"
   }
 }

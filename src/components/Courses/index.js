@@ -12,13 +12,13 @@ const courses = [
         id: uuid(),
         href: "https://github.com/wlsf82/protractor-and-webrtc",
         title: "Protractor & WebRTC",
-        p: "Codelab em minha conta no GitHub sobre como criar testes automatizados para aplicações WebRTC com o framework Protractor",
+        p: "Codelab no GitHub sobre como criar testes automatizados para aplicações WebRTC com o framework Protractor",
     },
     {
         id: uuid(),
         href: "http://code-squad.com/curso/Curso-Protractor-Automacao-de-testes-end-to-end-para-aplicacoes-Angular-JS/avulso",
         title: "Protractor & AngularJS",
-        p: "Curso no Code Squad sobre automação de testes para aplicações AngularJS com o framework Protractor",
+        p: "Code Squad - curso sobre automação de testes para aplicações AngularJS com o framework Protractor",
     },
 ];
 

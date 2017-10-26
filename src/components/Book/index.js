@@ -13,7 +13,7 @@ class Book extends PureComponent {
                 <h3>
                     <a href={bookUrl} target={targetValue} rel={relValue}>Protractor - Lições sobre testes end-to-end automatizados</a>
                 </h3>
-                <p>Neste livro você irá encontrar uma coleção de práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
+                <p>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
                 <Button
                     href={bookUrl}
                     target={targetValue}

@@ -30,7 +30,7 @@ const leftSideSpeaches = [
     {
         id: uuid(),
         href: "http://www.slideshare.net/walmyrlimasilvafilho/primeiros-passos-com-protractor-gutssc",
-        title: "GUTS-SC Janeiro 2016",
+        title: "GUTS-SC Janeiro de 2016",
     },
 ];
 

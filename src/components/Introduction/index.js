@@ -8,7 +8,7 @@ const paragraphs = [
     },
     {
         id: uuid(),
-        paragraph: "Ajudo pessoas a se tornarem melhores profissionais atravéz do uso de boas práticas de mercado.",
+        paragraph: "Ajudo pessoas a se tornarem melhores profissionais atravéz do uso de boas práticas de mercado e conscientização.",
     },
     {
         id: uuid(),

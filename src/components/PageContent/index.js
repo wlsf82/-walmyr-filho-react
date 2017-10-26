@@ -24,9 +24,9 @@ class PageContent extends PureComponent {
                 <ServiceDetails>{page}</ServiceDetails> :
                 <div className="main-content">
                     <Introduction />
-                    <Services />
-                    <Blog />
                     <Courses />
+                    <Blog />
+                    <Services />
                     <Book />
                     <Speaches />
                 </div>

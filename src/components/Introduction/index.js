@@ -4,7 +4,7 @@ import uuid from "uuid/v4";
 const paragraphs = [
     {
         id: uuid(),
-        paragraph: "\"Sou um desenvolvedor de software focado em testes automatizados e integração/entrega contínua e apaixonado pelo que faz.",
+        paragraph: "Sou um desenvolvedor de software focado em testes automatizados e integração/entrega contínua e apaixonado pelo que faz.",
     },
     {
         id: uuid(),
@@ -12,7 +12,7 @@ const paragraphs = [
     },
     {
         id: uuid(),
-        paragraph: "E todos os dias busco aprender algo novo, pois acredito que o aprendizado não tem fim.\"",
+        paragraph: "Todos os dias busco aprender algo novo, pois acredito que o aprendizado não tem fim.",
     },
 ];
 

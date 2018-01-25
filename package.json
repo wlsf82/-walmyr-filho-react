@@ -18,5 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm build"
+  },
+  "devDependencies": {
+    "backstopjs": "^3.0.38"
   }
 }

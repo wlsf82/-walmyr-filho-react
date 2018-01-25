@@ -1,0 +1,41 @@
+{
+    "id": "walmyr-filho-website",
+    "viewports": [
+        {
+            "label": "desktop",
+            "width": 1280,
+            "height": 1024
+        }
+    ],
+    "onBeforeScript": "chromy/onBefore.js",
+    "onReadyScript": "chromy/onReady.js",
+    "scenarios": [
+        {
+            "label": "home page",
+            "url": "http://localhost:3000",
+            "selectors": ["#root"],
+            "misMatchThreshold" : 0.1,
+            "requireSameDimensions": true
+        },
+        {
+            "label": "buttons",
+            "url": "http://localhost:3000",
+            "selectorExpansion": true,
+            "selectors": [".button"],
+            "misMatchThreshold" : 0.1,
+            "requireSameDimensions": true
+        }
+    ],
+    "paths": {
+        "bitmaps_reference": "test-report/backstopjs-report/bitmaps_reference",
+        "bitmaps_test": "test-report/backstopjs-report/bitmaps_test",
+        "engine_scripts": "./test/visual-regression/backstop_data/engine_scripts",
+        "html_report": "test-report/backstopjs-report/html_report"
+    },
+    "report": ["browser"],
+    "engine": "chrome",
+    "asyncCaptureLimit": 5,
+    "asyncCompareLimit": 50,
+    "debug": false,
+    "debugWindow": false
+}

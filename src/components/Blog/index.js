@@ -8,7 +8,7 @@ const backgroundStyle = {
 class Blog extends PureComponent {
     render() {
         return (
-            <div className="blog" style={ backgroundStyle}>
+            <div className="blog" style={backgroundStyle}>
                 <h2>Blog</h2>
                 <a href="https://talkingabouttesting.com" target="_blank" rel="noopener noreferrer">
                     <h3>Talking About Testing</h3>

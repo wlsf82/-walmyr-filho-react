@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import tatBackground from "./assets/tatBackground.jpg";
 
 const backgroundStyle = {
-    backgroundImage: "url(" + tatBackground + ")"
+    backgroundImage: `url(${tatBackground})`
 };
 
 class Blog extends PureComponent {

@@ -29,7 +29,7 @@ class Services extends PureComponent {
                         <h3>{item.h3}</h3>
                         <p>{item.p}</p>
                         <Button
-                            href={ "mailto: wlsf82@gmail.com?Subject=Informações sobre serviço de " + item.h3 }
+                            href={ `mailto: wlsf82@gmail.com?Subject=Informações sobre serviço de ${item.h3}` }
                             target=""
                         >
                             Entre em contato

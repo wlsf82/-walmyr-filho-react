@@ -1,7 +1,7 @@
 import Button from "../Button";
 import React, { PureComponent } from "react";
 import uuid from "uuid/v4";
-const serviceButtonLabel = "Entre em contato";
+
 const services = [
     {
         id: uuid(),
@@ -32,7 +32,7 @@ class Services extends PureComponent {
                             href={ "mailto: wlsf82@gmail.com?Subject=Informações sobre serviço de " + item.h3 }
                             target=""
                         >
-                            { serviceButtonLabel }
+                            Entre em contato
                         </Button>
                     </div>
                 )}

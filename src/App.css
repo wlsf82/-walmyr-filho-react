@@ -162,6 +162,10 @@ h1, h2, h3, .button {
     width: 30%;
 }
 
+.book img:hover {
+    transform: scale(1.1);
+}
+
 .speaches {
     background-color: #f2f2f2;
     padding-bottom: 30px;

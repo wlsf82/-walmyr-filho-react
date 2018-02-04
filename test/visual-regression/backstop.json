@@ -32,7 +32,7 @@
         "engine_scripts": "./test/visual-regression/backstop_data/engine_scripts",
         "html_report": "test-report/backstopjs-report/html_report"
     },
-    "report": ["browser"],
+    "report": [],
     "engine": "chrome",
     "asyncCaptureLimit": 5,
     "asyncCompareLimit": 50,

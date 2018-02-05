@@ -57,7 +57,7 @@ class Social extends PureComponent {
     render() {
         return (
             <div className="social">
-            { socialData.map( item =>
+            { socialData.map(item =>
                 <a href={item.href} target="_blank" rel="noopener noreferrer" key={item.id}>
                     <img src={item.img} alt={item.alt}/>
                 </a>

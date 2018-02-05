@@ -20,7 +20,7 @@ class Introduction extends PureComponent {
     render() {
         return (
             <div className="introduction">
-            { paragraphs.map( item =>
+            { paragraphs.map(item =>
                 <p key={item.id}>{item.paragraph}</p>
             )}
             </div>

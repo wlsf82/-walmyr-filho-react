@@ -24,7 +24,7 @@ class Services extends PureComponent {
     render() {
         return (
             <div className="services">
-                { services.map( item =>
+                { services.map(item =>
                     <div key={item.id}>
                         <h3>{item.h3}</h3>
                         <p>{item.p}</p>

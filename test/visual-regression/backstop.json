@@ -14,7 +14,7 @@
             "label": "home page",
             "url": "http://localhost:3000",
             "selectors": ["#root"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
@@ -22,70 +22,70 @@
             "url": "http://localhost:3000",
             "selectorExpansion": true,
             "selectors": [".button"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "blog",
             "url": "http://localhost:3000",
             "selectors": [".blog"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "book",
             "url": "http://localhost:3000",
             "selectors": [".book"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "courses",
             "url": "http://localhost:3000",
             "selectors": [".courses"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "introduction",
             "url": "http://localhost:3000",
             "selectors": [".introduction"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "footer",
             "url": "http://localhost:3000",
             "selectors": [".App-footer"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "header",
             "url": "http://localhost:3000",
             "selectors": [".App-header"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "services",
             "url": "http://localhost:3000",
             "selectors": [".services"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "social",
             "url": "http://localhost:3000",
             "selectors": [".social"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },
         {
             "label": "speaches",
             "url": "http://localhost:3000",
             "selectors": [".speaches"],
-            "misMatchThreshold" : 0.1,
+            "misMatchThreshold" : 0,
             "requireSameDimensions": true
         }
     ],

@@ -92,12 +92,15 @@
 	}
 
 	.speaches {
+		align-content: center;
 		background-color: #fff;
 		padding: 12px;
 	}
 
 	.speaches div {
-		display:table-row;
+		margin: auto;
+		width: 90%;
+		padding: 10px;
 	}
 
 	.social img {

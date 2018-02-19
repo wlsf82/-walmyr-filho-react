@@ -81,6 +81,7 @@ h1, h2, h3, .button {
     background-color: #fff;
     border-radius: 5%;
     display: inline-block;
+    margin-top: 20px;
     padding-bottom: 30px;
     vertical-align: text-top;
     width: calc(90% / 3);

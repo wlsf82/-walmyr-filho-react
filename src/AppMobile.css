@@ -113,3 +113,15 @@
 		display: none;
 	}
 }
+
+@media only screen and (max-device-width: 768px) {
+	.blog p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.book p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

@@ -126,6 +126,9 @@ h1, h2, h3, .button {
 .courses div {
     background-color: #fff;
     border-radius: 5%;
+    display: inline-block;
+    vertical-align: text-top;
+    width: calc(90% / 3);
 }
 
 .courses div:not(:last-child) {
@@ -140,12 +143,6 @@ h1, h2, h3, .button {
 .courses p {
     padding-left: 5px;
     padding-right: 5px;
-}
-
-.courses div {
-    width: calc(90% / 3);
-    display: inline-block;
-	vertical-align: text-top;
 }
 
 .book {

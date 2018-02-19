@@ -5,6 +5,11 @@
             "label": "desktop",
             "width": 1280,
             "height": 1024
+        },
+        {
+            "label": "tablet",
+            "width": 1024,
+            "height": 768
         }
     ],
     "onBeforeScript": "chromy/onBefore.js",

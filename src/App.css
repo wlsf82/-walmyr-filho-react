@@ -81,10 +81,13 @@ h1, h2, h3, .button {
     background-color: #fff;
     border-radius: 5%;
     display: inline-block;
-    margin-right: 20px;
     padding-bottom: 30px;
     vertical-align: text-top;
     width: calc(90% / 3);
+}
+
+.services div:not(:last-child) {
+    margin-right: 20px;
 }
 
 .services p {
@@ -119,6 +122,9 @@ h1, h2, h3, .button {
 .courses div {
     background-color: #fff;
     border-radius: 5%;
+}
+
+.courses div:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -177,9 +183,12 @@ h1, h2, h3, .button {
     background-color: #fff;
     border-radius: 5%;
     display: inline-block;
-    margin-right: 20px;
     vertical-align: text-top;
     width: calc(90% / 2);
+}
+
+.speaches div:not(:last-child) {
+    margin-right: 20px;
 }
 
 .speaches h3 {

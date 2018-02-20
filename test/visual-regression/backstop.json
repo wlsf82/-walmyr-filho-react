@@ -68,7 +68,7 @@
         {
             "label": "header",
             "url": "http://localhost:3000",
-            "selectors": [".App-header"],
+            "selectors": ["header"],
             "misMatchThreshold" : 0,
             "requireSameDimensions": true
         },

@@ -1,14 +1,15 @@
 @media only screen and (max-device-width: 650px) {
-	.App-header a:hover {
-		color: #efa700;
+	h1 {
+		font-size: 130%;
 	}
 
-	h1 {
-		font-size: 150%;
+	header.small h1 {
+	    font-size: 20px;
+	    padding-top: 15px;
 	}
 
 	.main-content {
-	    padding-top:110px;
+	    padding-top:100px;
 	}
 
 	.main-content .introduction {

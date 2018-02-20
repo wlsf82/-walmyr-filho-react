@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import $ from 'jquery';
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
@@ -11,3 +12,9 @@ if (module.hot) {
 }
 
 registerServiceWorker();
+
+$(document).on("scroll", () => {
+    $(document).scrollTop() > 100 ?
+        $("header").removeClass("large").addClass("small") :
+        $("header").removeClass("small").addClass("large");
+});

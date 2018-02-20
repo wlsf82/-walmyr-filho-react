@@ -214,8 +214,16 @@ h1, h2, h3, .button {
     font-size: 24px;
 }
 
+.App-footer a:hover {
+    font-size: 26px;
+}
+
 .social img {
     padding-right: 10px;
     padding-top: 35px;
     width: 2.8%;
+}
+
+.social img:hover {
+    transform: scale(1.2);
 }

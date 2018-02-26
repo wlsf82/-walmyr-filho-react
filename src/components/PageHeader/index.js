@@ -6,7 +6,7 @@ class PageHeader extends PureComponent {
             <header class="large">
                 <div className="container">
                     <h1>
-                        <a href="#">Walmyr <span>Lima e Silva </span>Filho</a>
+                        <a href="#top">Walmyr <span>Lima e Silva </span>Filho</a>
                     </h1>
                 </div>
             </header>

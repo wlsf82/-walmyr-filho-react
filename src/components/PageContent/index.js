@@ -9,7 +9,7 @@ import React, { PureComponent } from "react";
 class PageContent extends PureComponent {
     render() {
         return (
-            <div className="main-content stretch">
+            <div className="main-content stretch" id="top">
                 <Introduction />
                 <Courses />
                 <Blog />

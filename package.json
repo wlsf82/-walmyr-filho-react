@@ -16,8 +16,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "postinstall": "npm build",
     "test:visual": "rm -rf test-report/backstopjs-report/bitmaps_test && backstop --config=test/visual-regression/backstop.json test",
     "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve"

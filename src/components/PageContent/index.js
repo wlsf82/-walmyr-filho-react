@@ -1,6 +1,7 @@
 import Blog from "../Blog";
 import Book from "../Book";
 import Courses from "../Courses";
+import GoToTopButton from "../GoToTopButton";
 import Introduction from "../Introduction";
 import Services from "../Services";
 import Speaches from "../Speaches";
@@ -16,6 +17,7 @@ class PageContent extends PureComponent {
                 <Services />
                 <Book />
                 <Speaches />
+                <GoToTopButton />
             </div>
         );
     }

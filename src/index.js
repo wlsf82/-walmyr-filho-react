@@ -23,3 +23,13 @@ $("a[href='#top']").click(() => {
     $("html,body").animate({ scrollTop: 0 }, "slow");
    return false;
 });
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ?
+        document.getElementById("go-to-top").style.display = "block" :
+        document.getElementById("go-to-top").style.display = "none";
+}

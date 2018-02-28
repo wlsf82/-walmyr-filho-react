@@ -1,4 +1,8 @@
 @media only screen and (max-device-width: 650px) {
+	#go-to-top {
+	    display: none !important;
+	}
+
 	header h1 span {
 		display: none;
 	}

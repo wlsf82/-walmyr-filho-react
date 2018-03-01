@@ -33,6 +33,10 @@ header {
     font-size: 18px;
 }
 
+#go-to-top:hover {
+    background-color: #000;
+}
+
 header.small {
     height: 75px;
 }

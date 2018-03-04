@@ -4,21 +4,21 @@ import uuid from "uuid/v4";
 const courses = [
     {
         id: uuid(),
+        href: "http://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
+        title: "Testes automatizados",
+        p: "Curso gratúito teórico sobre automação de testes em diversas camadas de aplicações",
+    },
+    {
+        id: uuid(),
         href: "https://www.youtube.com/playlist?list=PL-eblSNRj0QEvVfKp0Xzagao9SqaSyW5k",
         title: "Aprendendo Protractor",
-        p: "Curso gratúito no canal Talking About Testing, no Youtube, sobre testes automatizados com Protractor (do básico ao avançado)",
+        p: "Curso gratúito no canal Talking About Testing sobre automação de testes com Protractor",
     },
     {
         id: uuid(),
         href: "https://github.com/wlsf82/protractor-and-webrtc",
         title: "Protractor & WebRTC",
-        p: "Codelab no GitHub sobre como criar testes automatizados para aplicações WebRTC com o framework Protractor",
-    },
-    {
-        id: uuid(),
-        href: "http://code-squad.com/curso/Curso-Protractor-Automacao-de-testes-end-to-end-para-aplicacoes-Angular-JS/avulso",
-        title: "Protractor & AngularJS",
-        p: "Code Squad - curso sobre automação de testes para aplicações AngularJS com o framework Protractor",
+        p: "Codelab sobre testes automatizados para aplicações WebRTC com o framework Protractor",
     },
 ];
 

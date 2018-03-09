@@ -6,7 +6,7 @@ const courses = [
         id: uuid(),
         href: "http://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
         title: "Testes automatizados",
-        p: "Curso gratúito teórico sobre automação de testes em diversas camadas de aplicações",
+        p: "Curso gratúito teórico no Coursify.me sobre automação de testes em diversas camadas de aplicações",
     },
     {
         id: uuid(),

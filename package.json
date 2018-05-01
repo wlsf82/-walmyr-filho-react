@@ -2,6 +2,11 @@
   "name": "walmyr-filho-react",
   "version": "1.0.0",
   "main": "build/index.html",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/wlsf82/-walmyr-filho-react"
+  },
   "engines": {
     "node": "6.11.3",
     "npm": "5.4.0"
@@ -17,6 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postinstall": "npm build",
+    "test": "npm run test:visual",
     "test:visual": "rm -rf test-report/backstopjs-report/bitmaps_test && backstop --config=test/visual-regression/backstop.json test",
     "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve"
   },

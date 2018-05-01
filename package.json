@@ -11,13 +11,6 @@
     "node": "6.11.3",
     "npm": "5.4.0"
   },
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10",
-    "uuid": "^3.1.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,6 +18,13 @@
     "test": "npm run test:visual",
     "test:visual": "rm -rf test-report/backstopjs-report/bitmaps_test && backstop --config=test/visual-regression/backstop.json test",
     "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "backstopjs": "^3.0.38"

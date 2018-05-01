@@ -5,7 +5,8 @@
 
 # testing
 /coverage
-test-report/
+test-report/backstopjs-report/bitmaps_test
+test-report/backstopjs-report/html_report
 
 # production
 /build

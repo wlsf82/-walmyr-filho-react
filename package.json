@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postinstall": "npm build",
+    "postinstall": "npm run build",
     "test": "npm run test:visual",
     "test:visual": "rm -rf test-report/backstopjs-report/bitmaps_test && backstop --config=test/visual-regression/backstop.json test",
     "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve"

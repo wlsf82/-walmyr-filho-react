@@ -10,15 +10,15 @@ const courses = [
     },
     {
         id: uuid(),
-        href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
-        title: "BackstopJS",
-        p: "Curso prático no Coursify.me sobre testes de regressão visual com a ferramenta BackstopJS",
+        href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
+        title: "Protractor",
+        p: "Curso prático no Coursify.me sobre arquitetura de testes end-to-end com Protractor",
     },
     {
         id: uuid(),
-        href: "https://www.youtube.com/playlist?list=PL-eblSNRj0QEvVfKp0Xzagao9SqaSyW5k",
-        title: "Aprendendo Protractor",
-        p: "Curso gratúito no canal Talking About Testing sobre automação de testes com Protractor",
+        href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
+        title: "BackstopJS",
+        p: "Curso prático no Coursify.me sobre testes de regressão visual com a ferramenta BackstopJS",
     },
 ];
 

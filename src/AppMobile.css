@@ -58,6 +58,15 @@
 		padding-top: 12px;
 	}
 
+	.blocks {
+		display: block;
+	}
+
+	.courses-box {
+	    background-color: #fff;
+	    padding-top: 10px;
+	}
+
 	.courses {
 		background-color: #fff;
 		padding-bottom: 0;

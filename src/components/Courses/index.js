@@ -25,16 +25,18 @@ const courses = [
 class Courses extends PureComponent {
     render() {
         return (
-            <div className="courses">
+            <div className="courses-box">
                 <h2>Cursos</h2>
-                { courses.map(item =>
-                <div key={item.id}>
-                    <h3>
-                        <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
-                    </h3>
-                    <p>{item.p}</p>
+                <div className="courses blocks">
+                    { courses.map(item =>
+                    <div key={item.id}>
+                        <h3>
+                            <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                        </h3>
+                        <p>{item.p}</p>
+                    </div>
+                    )}
                 </div>
-                )}
             </div>
         );
     }

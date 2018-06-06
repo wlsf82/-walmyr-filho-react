@@ -33,7 +33,7 @@ class Services extends PureComponent {
 
     render() {
         return (
-            <div className="services">
+            <div className="services blocks">
                 { services.map(item =>
                     <div key={item.id}>
                         { this.showServiceHeaderAsLinkOrNot(item) }

@@ -18,6 +18,7 @@
         {
             "label": "home page",
             "url": "http://localhost:3000",
+            "referenceUrl": "http://walmyr-filho.com",
             "selectors": ["#root"],
             "misMatchThreshold" : 0,
             "requireSameDimensions": true

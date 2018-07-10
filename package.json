@@ -17,7 +17,8 @@
     "postinstall": "npm run build",
     "test": "npm run test:visual",
     "test:visual": "rm -rf test-report/backstopjs-report/bitmaps_test && backstop --config=test/visual-regression/backstop.json test",
-    "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve"
+    "test:visual:approve": "backstop --config=test/visual-regression/backstop.json approve",
+    "backstop:reference": "rm -rf test-report/backstopjs-report/bitmaps_reference && backstop --config=test/visual-regression/backstop.json reference"
   },
   "dependencies": {
     "jquery": "^3.3.1",

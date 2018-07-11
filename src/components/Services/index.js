@@ -12,7 +12,7 @@ const services = [
     {
         id: uuid(),
         h3: "Consultoria",
-        p: "Ajudo empresas e profissionais a implementarem práticas de programação eXtrema, lean e DevOps, para que entreguem software de qualidade aos seus clientes com agilidade",
+        p: "Ajudo empresas e profissionais a implementarem práticas de programação extrema, lean e DevOps, para que entreguem software de qualidade aos seus clientes com agilidade",
         href: "https://talkingabouttesting.com/servicos/consultoria/",
     },
     {

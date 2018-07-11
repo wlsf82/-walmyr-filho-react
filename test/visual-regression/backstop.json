@@ -17,7 +17,7 @@
     "scenarios": [
         {
             "label": "home page",
-            "url": "http://localhost:3000",
+            "url": "http://walmyr-filho-react.herokuapp.com",
             "referenceUrl": "http://walmyr-filho.com",
             "selectors": ["#root"],
             "misMatchThreshold" : 0,

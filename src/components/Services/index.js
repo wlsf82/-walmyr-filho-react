@@ -1,4 +1,3 @@
-import Button from "../Button";
 import React, { PureComponent } from "react";
 import uuid from "uuid/v4";
 
@@ -38,12 +37,6 @@ class Services extends PureComponent {
                     <div key={item.id}>
                         { this.showServiceHeaderAsLinkOrNot(item) }
                         <p>{item.p}</p>
-                        <Button
-                            href={ `mailto: wlsf82@gmail.com?Subject=Informações sobre serviço de ${item.h3}` }
-                            target=""
-                        >
-                            Entre em contato
-                        </Button>
                     </div>
                 )}
             </div>

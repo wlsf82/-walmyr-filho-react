@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 650px) {
 	#go-to-top {
-	    display: none !important;
+		display: none !important;
 	}
 
 	header h1 span {
@@ -16,15 +16,15 @@
 	}
 
 	header.small h1 {
-	    font-size: 110%;
+		font-size: 110%;
 	}
 
 	.main-content {
-	    padding-top:100px;
+		padding-top:100px;
 	}
 
 	.main-content .introduction {
-	    padding: 12px;
+		padding: 12px;
 	}
 
 	.services {
@@ -41,7 +41,7 @@
 
 	.services div {
 		display:table-row;
-	    width: 90%;
+		width: 90%;
 	}
 
 	.blog {
@@ -50,9 +50,9 @@
 
 	.blog p {
 		color: #7a7c84;
-	    margin-left: 0;
-	    margin-right: 0%;
-	    padding-bottom: 5;
+		margin-left: 0;
+		margin-right: 0%;
+		padding-bottom: 5;
 		padding-left: 12px;
 		padding-right: 12px;
 		padding-top: 12px;
@@ -63,8 +63,8 @@
 	}
 
 	.courses-box {
-	    background-color: #fff;
-	    padding-top: 10px;
+		background-color: #fff;
+		padding-top: 10px;
 	}
 
 	.courses {
@@ -78,7 +78,7 @@
 	.courses div {
 		display:table-row;
 		padding: 12px;
-	    width: 90%;
+		width: 90%;
 	}
 
 	.book {
@@ -94,14 +94,14 @@
 	}
 
 	.book p {
-	    padding-bottom: 0;
-	    padding-left: 0;
-	    padding-right: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.book img {
 		padding-top: 12px;
-	    width: 90%;
+		width: 90%;
 	}
 
 	.main-content .introduction,
@@ -130,8 +130,8 @@
 
 	.social img {
 		padding-right: 8px;
-	    padding-top: 35px;
-	    width: 9%;
+		padding-top: 35px;
+		width: 9%;
 	}
 
 	.button, .book .button {

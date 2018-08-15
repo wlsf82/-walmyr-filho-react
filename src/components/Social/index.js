@@ -25,7 +25,7 @@ const socialData = [
         id: uuid(),
         alt: "Google Plus",
         img: googleplusImg,
-        href: "https://plus.google.com/114754442377170940541",
+        href: "https://plus.google.com/+WalmyrFilho",
     },
     {
         id: uuid(),
@@ -49,7 +49,7 @@ const socialData = [
         id: uuid(),
         alt: "YouTube",
         img: youtubeImg,
-        href: "https://www.youtube.com/talkingabouttesting",
+        href: "https://www.youtube.com/user/wlsf82/videos",
     },
 ];
 

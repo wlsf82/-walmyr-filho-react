@@ -10,30 +10,30 @@ import registerServiceWorker from "./registerServiceWorker";
 ReactDOM.render(<App />, document.getElementById("root"));
 
 if (module.hot) {
-    module.hot.accept();
+  module.hot.accept();
 }
 
 registerServiceWorker();
 
 $(document).on("scroll", () => {
-    $(document).scrollTop() > 100 ?
-        $("header").removeClass("large").addClass("small") :
-        $("header").removeClass("small").addClass("large");
+  $(document).scrollTop() > 100 ?
+    $("header").removeClass("large").addClass("small") :
+    $("header").removeClass("small").addClass("large");
 });
 
 $("a[href='#top']").click(() => {
-    $("html,body").animate({ scrollTop: 0 }, "slow");
-   return false;
+  $("html,body").animate({ scrollTop: 0 }, "slow");
+  return false;
 });
 
 window.onscroll = function() {
-    scrollFunction()
+  scrollFunction()
 };
 
 function scrollFunction() {
-    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ?
-        document.getElementById("go-to-top").style.display = "block" :
-        document.getElementById("go-to-top").style.display = "none";
+  document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ?
+    document.getElementById("go-to-top").style.display = "block" :
+    document.getElementById("go-to-top").style.display = "none";
 }
 
 if(module.hot) {

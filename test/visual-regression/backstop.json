@@ -1,39 +1,39 @@
 {
-    "id": "walmyr-filho-website",
-    "viewports": [
-        {
-            "label": "desktop",
-            "width": 1280,
-            "height": 1024
-        },
-        {
-            "label": "tablet",
-            "width": 1024,
-            "height": 768
-        }
-    ],
-    "onBeforeScript": "chromy/onBefore.js",
-    "onReadyScript": "chromy/onReady.js",
-    "scenarios": [
-        {
-            "label": "home page",
-            "url": "http://walmyr-filho-react.herokuapp.com",
-            "referenceUrl": "http://walmyr-filho.com",
-            "selectors": ["#root"],
-            "misMatchThreshold" : 0,
-            "requireSameDimensions": true
-        }
-    ],
-    "paths": {
-        "bitmaps_reference": "test-report/backstopjs-report/bitmaps_reference",
-        "bitmaps_test": "test-report/backstopjs-report/bitmaps_test",
-        "engine_scripts": "./test/visual-regression/backstop_data/engine_scripts",
-        "html_report": "test-report/backstopjs-report/html_report"
+  "id": "walmyr-filho-website",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
     },
-    "report": [],
-    "engine": "chrome",
-    "asyncCaptureLimit": 5,
-    "asyncCompareLimit": 50,
-    "debug": false,
-    "debugWindow": false
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "chromy/onBefore.js",
+  "onReadyScript": "chromy/onReady.js",
+  "scenarios": [
+    {
+      "label": "home page",
+      "url": "http://walmyr-filho-react.herokuapp.com",
+      "referenceUrl": "http://walmyr-filho.com",
+      "selectors": ["#root"],
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "test-report/backstopjs-report/bitmaps_reference",
+    "bitmaps_test": "test-report/backstopjs-report/bitmaps_test",
+    "engine_scripts": "./test/visual-regression/backstop_data/engine_scripts",
+    "html_report": "test-report/backstopjs-report/html_report"
+  },
+  "report": [],
+  "engine": "chrome",
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
 }

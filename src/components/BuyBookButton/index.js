@@ -9,7 +9,7 @@ const BuyBookButton = () =>
     target="_blank"
     rel="noopener noreferrer"
   >
-    Comprar livro
+    Compre o livro
   </a>
 
 export default BuyBookButton;

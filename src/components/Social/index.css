@@ -1,0 +1,9 @@
+.social img {
+  padding-right: 10px;
+  padding-top: 35px;
+  width: 3.8%;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+}

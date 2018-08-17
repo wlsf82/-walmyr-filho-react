@@ -1,3 +1,8 @@
+import React from "react";
+
+import "./index.css";
+import "./index-mobile.css";
+
 import Blog from "../Blog";
 import Book from "../Book";
 import Courses from "../Courses";
@@ -5,22 +10,16 @@ import GoToTopButton from "../GoToTopButton";
 import Introduction from "../Introduction";
 import Services from "../Services";
 import Speaches from "../Speaches";
-import React, { PureComponent } from "react";
 
-class PageContent extends PureComponent {
-    render() {
-        return (
-            <div className="main-content stretch">
-                <Introduction />
-                <Courses />
-                <Blog />
-                <Services />
-                <Book />
-                <Speaches />
-                <GoToTopButton />
-            </div>
-        );
-    }
-}
+const PageContent = () =>
+  <div className="main-content stretch">
+    <Introduction />
+    <Courses />
+    <Blog />
+    <Services />
+    <Book />
+    <Speaches />
+    <GoToTopButton />
+  </div>
 
 export default PageContent;

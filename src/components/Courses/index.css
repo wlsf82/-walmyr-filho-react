@@ -1,0 +1,32 @@
+.courses-box {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+}
+
+.courses {
+  background-color: #f2f2f2;
+}
+
+.courses div {
+  background-color: #fff;
+  border-radius: 5%;
+  display: inline-block;
+  vertical-align: text-top;
+  width: calc(90% / 3);
+}
+
+.courses div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.courses h2 {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.courses p {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

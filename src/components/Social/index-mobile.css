@@ -1,0 +1,7 @@
+@media only screen and (max-device-width: 650px) {
+  .social img {
+    padding-right: 8px;
+    padding-top: 35px;
+    width: 9%;
+  }
+}

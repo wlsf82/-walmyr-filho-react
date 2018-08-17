@@ -1,0 +1,24 @@
+@media only screen and (max-device-width: 650px) {
+  .courses-box {
+    background-color: #fff;
+    padding-top: 10px;
+  }
+
+  .courses {
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+  }
+
+  .courses div {
+    display:table-row;
+    padding: 12px;
+    width: 90%;
+  }
+
+  .courses {
+    padding: 0;
+  }
+}

@@ -1,0 +1,5 @@
+@media only screen and (max-device-width: 650px) {
+  .main-content .introduction {
+    padding: 12px;
+  }
+}

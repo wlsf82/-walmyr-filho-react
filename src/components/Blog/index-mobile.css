@@ -1,0 +1,26 @@
+@media only screen and (max-device-width: 650px) {
+  .blog {
+		background-size: 0;
+	}
+
+	.blog p {
+		color: #7a7c84;
+		margin-left: 0;
+		margin-right: 0%;
+		padding-bottom: 5;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 12px;
+	}
+
+  .blog h2 {
+		color: #7a7c84;
+	}
+}
+
+@media only screen and (max-device-width: 768px) {
+	.blog p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

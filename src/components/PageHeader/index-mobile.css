@@ -1,0 +1,17 @@
+@media only screen and (max-device-width: 650px) {
+	header h1 span {
+		display: none;
+	}
+
+	h1 {
+		font-size: 170%;
+	}
+
+	header.small {
+		height: 60px;
+	}
+
+	header.small h1 {
+		font-size: 110%;
+	}
+}

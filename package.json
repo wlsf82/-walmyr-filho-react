@@ -8,8 +8,8 @@
     "url": "https://github.com/wlsf82/-walmyr-filho-react"
   },
   "engines": {
-    "node": "6.11.3",
-    "npm": "5.4.0"
+    "node": "8.11.3",
+    "npm": "6.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

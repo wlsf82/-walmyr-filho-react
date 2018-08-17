@@ -35,3 +35,7 @@ function scrollFunction() {
         document.getElementById("go-to-top").style.display = "block" :
         document.getElementById("go-to-top").style.display = "none";
 }
+
+if(module.hot) {
+  module.hot.accept();
+}

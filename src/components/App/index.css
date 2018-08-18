@@ -14,12 +14,12 @@
 }
 
 a {
-  color: #efa700;
+  color: #2c313f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2c313f;
+  color: #efa700;
 }
 
 h2:not(.blog h2) {

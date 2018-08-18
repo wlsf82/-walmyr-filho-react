@@ -16,6 +16,14 @@
   .blog h2 {
 		color: #7a7c84;
 	}
+
+  .blog a {
+		color: #2c313f;
+	}
+
+  .blog a:hover {
+    color: #efa700;
+  }
 }
 
 @media only screen and (max-device-width: 768px) {

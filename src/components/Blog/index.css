@@ -17,6 +17,10 @@
   padding-right: 200px;
 }
 
+.blog a {
+  color: #efa700;
+}
+
 .blog a:hover {
   color: #f2f2f2;
 }

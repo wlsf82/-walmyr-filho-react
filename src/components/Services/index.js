@@ -1,8 +1,11 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledServices, {
+  StyledServicesDiv,
+  StyledServicesH3,
+  StyledServicesParagraph
+} from "./StyledServices";
 
 const services = [
   {
@@ -26,15 +29,15 @@ const services = [
 ];
 
 const Services = () =>
-  <div className="services blocks">
+  <StyledServices>
     { services.map(service =>
-      <div key={service.id}>
-        <h3>
+      <StyledServicesDiv key={service.id}>
+        <StyledServicesH3>
           <a href={service.href} target="_blank">{service.h3}</a>
-        </h3>
-        <p>{service.p}</p>
-      </div>
+        </StyledServicesH3>
+        <StyledServicesParagraph>{service.p}</StyledServicesParagraph>
+      </StyledServicesDiv>
     )}
-  </div>
+  </StyledServices>
 
 export default Services;

@@ -1,19 +1,13 @@
 .button {
   background-color: #2c313f;
-  border-bottom-left-radius: 65px;
-  border-bottom-right-radius: 65px;
+  border-radius: 65px;
   border-style: none;
-  border-top-left-radius: 65px;
-  border-top-right-radius: 65px;
   color: #fff;
   font-size: 13px;
   font-weight: bold;
   height: 37.4688px;
   letter-spacing: 0.8125px;
-  padding-bottom: 11.25px;
-  padding-left: 19.5px;
-  padding-right: 19.5px;
-  padding-top: 11.25px;
+  padding: 11.25px 19.5px;
 }
 
 .button:hover {

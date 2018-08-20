@@ -1,8 +1,12 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledCourses, {
+  StyledCoursesH2,
+  StyledCoursesContainer,
+  StyledCoursesDivInsideContainer,
+  StyledCoursesParagraph,
+} from "./StyledCourses";
 
 const courses = [
   {
@@ -26,18 +30,18 @@ const courses = [
 ];
 
 const Courses = () =>
-  <div className="courses-box">
-    <h2>Cursos</h2>
-    <div className="courses blocks">
+  <StyledCourses>
+    <StyledCoursesH2>Cursos</StyledCoursesH2>
+    <StyledCoursesContainer>
       { courses.map(item =>
-        <div key={item.id}>
+        <StyledCoursesDivInsideContainer key={item.id}>
           <h3>
             <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
           </h3>
-          <p>{item.p}</p>
-        </div>
+          <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
+        </StyledCoursesDivInsideContainer>
       )}
-    </div>
-  </div>
+    </StyledCoursesContainer>
+  </StyledCourses>
 
 export default Courses;

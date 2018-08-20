@@ -1,8 +1,7 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledSocialImage from "./StyledSocialImage";
 
 import facebookImg from "./assets/facebook.png";
 import githubImg from "./assets/github.png";
@@ -58,10 +57,10 @@ const socialData = [
 ];
 
 const Social = () =>
-  <div className="social">
+  <div>
     { socialData.map(item =>
       <a href={item.href} target="_blank" rel="noopener noreferrer" key={item.id}>
-        <img src={item.img} alt={item.alt}/>
+        <StyledSocialImage src={item.img} alt={item.alt}/>
       </a>
     )}
   </div>

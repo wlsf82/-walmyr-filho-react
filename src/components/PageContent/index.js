@@ -1,7 +1,6 @@
 import React from "react";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledPageContent from "./StyledPageContent";
 
 import Blog from "../Blog";
 import Book from "../Book";
@@ -12,7 +11,7 @@ import Services from "../Services";
 import Speaches from "../Speaches";
 
 const PageContent = () =>
-  <div className="main-content">
+  <StyledPageContent>
     <Introduction />
     <Courses />
     <Blog />
@@ -20,6 +19,6 @@ const PageContent = () =>
     <Book />
     <Speaches />
     <GoToTopButton />
-  </div>
+  </StyledPageContent>
 
 export default PageContent;

@@ -13,10 +13,6 @@
 		padding-top: 12px;
 		width: 90%;
 	}
-
-  .button, .book .button {
-		display: none;
-	}
 }
 
 @media only screen and (max-device-width: 768px) {

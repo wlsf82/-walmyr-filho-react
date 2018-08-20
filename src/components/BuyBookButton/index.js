@@ -1,15 +1,13 @@
 import React from "react";
-
-import "./index.css";
+import StyledBuyBookButton from "./StyledBuyBookButton";
 
 const BuyBookButton = () =>
-  <a
-    className="button"
+  <StyledBuyBookButton
     href="https://www.casadocodigo.com.br/products/livro-protractor"
     target="_blank"
     rel="noopener noreferrer"
   >
     Compre o livro
-  </a>
+  </StyledBuyBookButton>
 
 export default BuyBookButton;

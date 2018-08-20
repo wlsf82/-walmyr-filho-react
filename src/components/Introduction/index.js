@@ -1,8 +1,7 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledIntroduction from "./StyledIntroduction";
 
 const paragraphs = [
   {
@@ -20,10 +19,10 @@ const paragraphs = [
 ];
 
 const Introduction = () =>
-  <div className="introduction">
+  <StyledIntroduction>
     { paragraphs.map(item =>
       <p key={item.id}>{item.paragraph}</p>
     )}
-  </div>
+  </StyledIntroduction>
 
 export default Introduction;

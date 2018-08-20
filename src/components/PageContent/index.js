@@ -12,7 +12,7 @@ import Services from "../Services";
 import Speaches from "../Speaches";
 
 const PageContent = () =>
-  <div className="main-content stretch">
+  <div className="main-content">
     <Introduction />
     <Courses />
     <Blog />

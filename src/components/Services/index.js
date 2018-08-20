@@ -4,7 +4,7 @@ import uuid from "uuid/v4";
 import StyledServices, {
   StyledServicesDiv,
   StyledServicesH3,
-  StyledServicesParagraph
+  StyledServicesParagraph,
 } from "./StyledServices";
 
 const services = [

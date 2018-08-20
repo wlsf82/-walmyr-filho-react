@@ -1,11 +1,6 @@
 @media only screen and (max-device-width: 650px) {
-	.blocks {
-		display: block;
-	}
-
-	.main-content .introduction,
+	.main-content,
 	.blog,
-	.courses,
 	.book {
 		border-bottom: 5px dotted #f2f2f2;
 	}

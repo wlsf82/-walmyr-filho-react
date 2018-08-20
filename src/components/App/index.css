@@ -29,9 +29,3 @@ h2:not(.blog h2) {
 h1, h2, h3 {
   text-transform: uppercase;
 }
-
-.blocks {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 30px;
-}

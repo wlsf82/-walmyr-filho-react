@@ -1,8 +1,7 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledSpeaches, { StyledSpeachesLeftDiv, StyledSpeachesRightDiv, StyledSpeachesH3 } from "./StyledSpeaches";
 
 const leftSideSpeaches = [
   {
@@ -74,22 +73,22 @@ const relValue = "noopener noreferrer";
 const targetValue = "_blank";
 
 const Speaches = () =>
-  <div className="speaches">
+  <StyledSpeaches>
     <h2>Palestras e eventos</h2>
-    <div className="left">
+    <StyledSpeachesLeftDiv>
       { leftSideSpeaches.map(item =>
-        <h3 key={item.id}>
+        <StyledSpeachesH3 key={item.id}>
           <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-        </h3>
+        </StyledSpeachesH3>
       )}
-    </div>
-    <div className="right">
+    </StyledSpeachesLeftDiv>
+    <StyledSpeachesRightDiv>
       { rightSideSpeaches.map(item =>
-        <h3 key={item.id}>
+        <StyledSpeachesH3 key={item.id}>
           <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-        </h3>
+        </StyledSpeachesH3>
       )}
-    </div>
-  </div>
+    </StyledSpeachesRightDiv>
+  </StyledSpeaches>
 
 export default Speaches;

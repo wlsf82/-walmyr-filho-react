@@ -13,7 +13,6 @@ const StyledServices = styled.div`
     padding-bottom: 0;
     padding-left: 12px;
     padding-right: 12px;
-    padding-top: 0px;
     display: block;
     border-bottom: 5px dotted #f2f2f2;
   }

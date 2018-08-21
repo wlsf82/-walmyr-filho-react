@@ -6,7 +6,6 @@ const StyledCourses = styled.div`
   padding-bottom: 10px;
   @media only screen and (max-device-width: 650px) {
     background-color: #fff;
-    padding-top: 10px;
     border-bottom: 5px dotted #f2f2f2;
   }
 `;

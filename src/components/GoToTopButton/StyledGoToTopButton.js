@@ -1,4 +1,6 @@
-#go-to-top {
+import styled from "styled-components";
+
+const StyledGoToTopButton = styled.a`
   display: none;
   position: fixed;
   bottom: 20px;
@@ -13,8 +15,14 @@
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
-}
+  &:hover {
+    background-color: #000
+    color: #fff;
+  }
+  @media only screen and (max-device-width: 650px) {
+    display: none !important;
+  }
 
-#go-to-top:hover {
-  background-color: #000;
-}
+`;
+
+export default StyledGoToTopButton;

@@ -1,10 +1,9 @@
 import React from "react";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledGoToTopButton from "./StyledGoToTopButton";
 
 const GoToTopButton = () =>
-  <a
+  <StyledGoToTopButton
     id="go-to-top"
     href="#top"
     rel="noopener noreferrer"
@@ -12,6 +11,6 @@ const GoToTopButton = () =>
     title="Vai pro topo"
   >
     Topo ^
-  </a>
+  </StyledGoToTopButton>
 
 export default GoToTopButton;

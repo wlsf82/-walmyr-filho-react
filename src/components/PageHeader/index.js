@@ -11,9 +11,9 @@ const PageHeader = () =>
     <div className="container">
       <StyledPageHeaderH1>
         <StyledPageHeaderAnchor href="#top">
-          Walmyr
+          Walmyr 
           <StyledPageHeaderH1Span>
-            Lima e Silva 
+            Lima e Silva
           </StyledPageHeaderH1Span>
           Filho
         </StyledPageHeaderAnchor>

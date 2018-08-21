@@ -15,13 +15,9 @@ registerServiceWorker();
 
 $(document).on("scroll", () => {
   $(document).scrollTop() > 100
-    ? replaceOneClassByAnotherFromHeader("large", "small")
-    : replaceOneClassByAnotherFromHeader("small", "large");
+    ? $("header").addClass("small")
+    : $("header").removeClass("small");
 });
-
-function replaceOneClassByAnotherFromHeader(classToRemove, classToAdd) {
-  $("header").removeClass(classToRemove).addClass(classToAdd)
-}
 
 $("a[href='#top']").click(() => {
   $("html,body").animate({ scrollTop: 0 }, "slow");

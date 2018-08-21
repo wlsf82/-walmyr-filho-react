@@ -22,10 +22,6 @@ a:hover {
   color: #efa700;
 }
 
-h2:not(.blog h2) {
-  color: #2c313f;
-}
-
 h1, h2, h3 {
   text-transform: uppercase;
 }

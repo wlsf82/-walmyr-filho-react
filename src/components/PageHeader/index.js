@@ -7,8 +7,8 @@ import "./index.css";
 import "./index-mobile.css";
 
 const PageHeader = () =>
-  <StyledPageHeader className="large">
-    <div className="container">
+  <StyledPageHeader>
+    <div>
       <StyledPageHeaderH1>
         <StyledPageHeaderAnchor href="#top">
           Walmyr <StyledPageHeaderH1Span>Lima e Silva </StyledPageHeaderH1Span>Filho

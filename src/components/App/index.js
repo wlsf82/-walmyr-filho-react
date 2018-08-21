@@ -1,17 +1,16 @@
 import React from "react";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledApp from "./StyledApp";
 
 import PageContent from "../PageContent";
 import PageFooter from "../PageFooter";
 import PageHeader from "../PageHeader";
 
 const App = () =>
-  <div className="App">
+  <StyledApp>
     <PageHeader />
     <PageContent />
     <PageFooter />
-  </div>
+  </StyledApp>
 
 export default App;

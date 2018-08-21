@@ -1,23 +1,7 @@
-header {
-  background-color: #fff;
-  border-bottom: 1px solid #f2f2f2;
-  float: left;
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-}
-
 header.small {
   height: 75px;
 }
 header.small h1 {
   font-size: 26px;
   padding-top: 5px;
-}
-
-header, a {
-  transition: .7s all;
-  -moz-transition: .7s all;
-  -webkit-transition: .7s all;
-  -o-transition: .7s all;
 }

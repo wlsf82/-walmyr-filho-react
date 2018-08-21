@@ -1,15 +1,24 @@
 import React from "react";
 
+import StyledPageHeader,
+  { StyledPageHeaderAnchor, StyledPageHeaderH1, StyledPageHeaderH1Span } from "./StyledPageHeader";
+
 import "./index.css";
 import "./index-mobile.css";
 
 const PageHeader = () =>
-  <header className="large">
+  <StyledPageHeader className="large">
     <div className="container">
-      <h1>
-        <a href="#top">Walmyr <span>Lima e Silva </span>Filho</a>
-      </h1>
+      <StyledPageHeaderH1>
+        <StyledPageHeaderAnchor href="#top">
+          Walmyr
+          <StyledPageHeaderH1Span>
+            Lima e Silva 
+          </StyledPageHeaderH1Span>
+          Filho
+        </StyledPageHeaderAnchor>
+      </StyledPageHeaderH1>
     </div>
-  </header>
+  </StyledPageHeader>
 
 export default PageHeader;

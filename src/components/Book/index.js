@@ -1,7 +1,6 @@
 import React from "react";
 
-import "./index.css";
-import "./index-mobile.css";
+import StyledBook, { StyledBlogParagraph, StyledBookImage } from "./StyledBook";
 
 import BuyBookButton from "../BuyBookButton";
 import bookImage from "./assets/bookImg.png"
@@ -11,16 +10,16 @@ const relValue = "noopener noreferrer";
 const targetValue = "_blank";
 
 const Book = () =>
-  <div className="book">
+  <StyledBook>
     <h2>Livro</h2>
     <h3>
       <a href={bookUrl} target={targetValue} rel={relValue}>Protractor - Lições sobre testes end-to-end automatizados</a>
     </h3>
-    <p>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
+    <StyledBlogParagraph>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</StyledBlogParagraph>
     <BuyBookButton />
     <a href={bookUrl} target={targetValue} rel={relValue}>
-      <img src={bookImage} alt="Livro de Protractor"/>
+      <StyledBookImage src={bookImage} alt="Livro de Protractor"/>
     </a>
-  </div>
+  </StyledBook>
 
 export default Book;

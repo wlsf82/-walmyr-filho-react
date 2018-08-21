@@ -1,6 +1,5 @@
 @media only screen and (max-device-width: 650px) {
-	.main-content,
-	.book {
+	.main-content {
 		border-bottom: 5px dotted #f2f2f2;
 	}
 }

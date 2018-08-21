@@ -10,10 +10,11 @@ const StyledBlog = styled.div`
   background-size: cover;
   color: #fff;
   opacity: .9;
-  padding: 10px 10px;
+  padding-top: 30px;
   @media only screen and (max-device-width: 650px) {
     background-size: 0;
     border-bottom: 5px dotted #f2f2f2;
+    padding-top: 10px;
   }
 `;
 

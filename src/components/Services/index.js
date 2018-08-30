@@ -33,7 +33,7 @@ const Services = () =>
     { services.map(service =>
       <StyledServicesDiv key={service.id}>
         <StyledServicesH3>
-          <a href={service.href} target="_blank" rel="noopener">{service.h3}</a>
+          <a href={service.href} target="_blank" rel="noopener noreferrer">{service.h3}</a>
         </StyledServicesH3>
         <StyledServicesParagraph>{service.p}</StyledServicesParagraph>
       </StyledServicesDiv>

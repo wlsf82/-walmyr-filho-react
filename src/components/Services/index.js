@@ -23,7 +23,7 @@ const services = [
   {
     id: uuid(),
     h3: "Desenvolvimento",
-    p: "Desenvolvo testes end-to-end automatizados utilizando ferramentas modernas e boas práticas de mercado. Terceirize testes de UI em seus projetos com quem já tem isso \"no sangue\"",
+    p: "Desenvolvo testes end-to-end automatizados utilizando ferramentas modernas e boas práticas de mercado. Terceirize testes de GUI em seus projetos com quem já tem isso \"no sangue\"",
     href: "https://talkingabouttesting.com/servicos/desenvolvimento/",
   },
 ];

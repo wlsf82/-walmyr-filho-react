@@ -7,7 +7,7 @@ import facebookImg from "./assets/facebook.png";
 import githubImg from "./assets/github.png";
 import googleplusImg from "./assets/googleplus.png";
 import linkedinImg from "./assets/linkedin.png";
-import twiterImg from "./assets/twiter.png";
+import twitterImg from "./assets/twitter.png";
 import wordpressImg from "./assets/wordpress.png";
 import youtubeImg from "./assets/youtube.png";
 
@@ -38,8 +38,8 @@ const socialData = [
   },
   {
     id: uuid(),
-    alt: "Twiter",
-    img: twiterImg,
+    alt: "Twitter",
+    img: twitterImg,
     href: "https://twitter.com/walmyrlimaesilv",
   },
   {

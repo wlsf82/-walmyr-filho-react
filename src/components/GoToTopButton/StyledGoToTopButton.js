@@ -16,13 +16,12 @@ const StyledGoToTopButton = styled.a`
   border-radius: 10px;
   font-size: 18px;
   &:hover {
-    background-color: #000
+    background-color: #000;
     color: #fff;
   }
   @media only screen and (max-device-width: 650px) {
     display: none !important;
   }
-
 `;
 
 export default StyledGoToTopButton;

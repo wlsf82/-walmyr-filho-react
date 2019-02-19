@@ -31,7 +31,15 @@ const courses = [
 
 const Courses = () =>
   <StyledCourses>
-    <StyledCoursesH2>Cursos</StyledCoursesH2>
+    <StyledCoursesH2>
+      <a
+        href="http://talkingabouttesting.coursify.me"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Cursos
+      </a>
+    </StyledCoursesH2>
     <StyledCoursesContainer>
       { courses.map(item =>
         <StyledCoursesDivInsideContainer key={item.id}>

@@ -33,6 +33,7 @@ const Courses = () =>
   <StyledCourses>
     <StyledCoursesH2>
       <a
+        id="courses-h2-anchor"
         href="http://talkingabouttesting.coursify.me"
         target="_blank"
         rel="noopener noreferrer"

@@ -5,6 +5,7 @@ import StyledSocialImage from "./StyledSocialImage";
 
 import facebookImg from "./assets/facebook.png";
 import githubImg from "./assets/github.png";
+import gitlabImg from "./assets/gitlab.png";
 import linkedinImg from "./assets/linkedin.png";
 import twitterImg from "./assets/twitter.png";
 import wordpressImg from "./assets/wordpress.png";
@@ -22,6 +23,12 @@ const socialData = [
     alt: "GitHub",
     img: githubImg,
     href: "https://github.com/wlsf82",
+  },
+  {
+    id: uuid(),
+    alt: "GitLab",
+    img: gitlabImg,
+    href: "https://gitlab.com/wlsf82",
   },
   {
     id: uuid(),

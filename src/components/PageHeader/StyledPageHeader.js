@@ -11,9 +11,6 @@ const StyledPageHeader = styled.header`
 
 const StyledPageHeaderAnchor = styled.a`
   transition: .7s all;
-  -moz-transition: .7s all;
-  -webkit-transition: .7s all;
-  -o-transition: .7s all;
 `;
 
 const StyledPageHeaderH1 = styled.h1`

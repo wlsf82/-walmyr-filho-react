@@ -3,9 +3,6 @@ import styled from "styled-components";
 import tatBackground from "./assets/tatBackground.jpg";
 
 const StyledBlog = styled.div`
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-image: url(${tatBackground});
   background-size: cover;
   color: #fff;

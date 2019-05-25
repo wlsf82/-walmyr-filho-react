@@ -20,7 +20,7 @@ const StyledServices = styled.div`
 
 const StyledServicesDiv = styled.div`
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 5px;
   display: inline-block;
   margin-top: 20px;
   vertical-align: text-top;

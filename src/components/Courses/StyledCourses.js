@@ -28,7 +28,7 @@ const StyledCoursesContainer = styled.div` //.courses
 
 const StyledCoursesDivInsideContainer = styled.div`
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 5px;
   display: inline-block;
   vertical-align: text-top;
   width: calc(90% / 3);

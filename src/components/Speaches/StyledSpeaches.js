@@ -13,7 +13,7 @@ const StyledSpeaches = styled.div`
 
 const StyledSpeachesLeftDiv = styled.div`
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 5px;
   display: inline-block;
   vertical-align: text-top;
   width: calc(90% / 2);
@@ -29,7 +29,7 @@ const StyledSpeachesLeftDiv = styled.div`
 
 const StyledSpeachesRightDiv = styled.div`
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 5px;
   display: inline-block;
   vertical-align: text-top;
   width: calc(90% / 2);

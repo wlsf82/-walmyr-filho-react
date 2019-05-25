@@ -12,7 +12,6 @@ const StyledSocialImage = styled.img`
     padding-top: 35px;
     width: 9%;
   }
-
 `;
 
 export default StyledSocialImage;

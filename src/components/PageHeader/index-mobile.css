@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 650px) {
+@media (max-width: 650px) {
 	header.small {
 		height: 60px;
 	}

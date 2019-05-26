@@ -14,13 +14,13 @@ const StyledPageHeaderAnchor = styled.a`
 `;
 
 const StyledPageHeaderH1 = styled.h1`
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     font-size: 170%;
   }
 `;
 
 const StyledPageHeaderH1Span = styled.span`
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     display: none;
   }
 `;

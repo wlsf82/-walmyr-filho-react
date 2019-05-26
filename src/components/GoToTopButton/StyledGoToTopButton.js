@@ -19,7 +19,7 @@ const StyledGoToTopButton = styled.a`
     background-color: #000;
     color: #fff;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     display: none !important;
   }
 `;

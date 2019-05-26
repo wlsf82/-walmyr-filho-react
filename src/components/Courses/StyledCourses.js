@@ -4,7 +4,7 @@ const StyledCourses = styled.div`
   background-color: #f2f2f2;
   padding-top: 10px;
   padding-bottom: 10px;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     background-color: #fff;
     border-bottom: 5px dotted #f2f2f2;
   }
@@ -19,7 +19,7 @@ const StyledCoursesContainer = styled.div` //.courses
   background-color: #f2f2f2;
   display: flex;
   justify-content: space-around;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     background-color: #fff;
     display: block;
     margin-bottom: -10px;
@@ -37,7 +37,7 @@ const StyledCoursesDivInsideContainer = styled.div`
   &:not(:last-child) {
     margin-right: 20px;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     display:table-row;
     padding: 12px;
     width: 90%;
@@ -47,7 +47,7 @@ const StyledCoursesDivInsideContainer = styled.div`
 const StyledCoursesParagraph = styled.p`
   margin: 0 10px;
   padding: 0 10px;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     padding-bottom: 20px;
     &:last-child {
       padding-bottom: 20px;

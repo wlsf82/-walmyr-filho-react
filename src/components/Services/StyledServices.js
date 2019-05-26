@@ -8,7 +8,7 @@ const StyledServices = styled.div`
   justify-content: space-around;
   display: flex;
   justify-content: space-around;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     background-color: #fff;
     padding-bottom: 0;
     padding-left: 12px;
@@ -28,7 +28,7 @@ const StyledServicesDiv = styled.div`
   &:not(:last-child) {
     margin-right: 20px;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     display:table-row;
     width: 90%;
   }

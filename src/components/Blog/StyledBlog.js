@@ -8,7 +8,7 @@ const StyledBlog = styled.div`
   color: #fff;
   opacity: .9;
   padding-top: 30px;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     background-size: 0;
     border-bottom: 5px dotted #f2f2f2;
     padding-top: 10px;
@@ -16,7 +16,7 @@ const StyledBlog = styled.div`
 `;
 
 const StyledBlogH2 = styled.h2`
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     color: #7a7c84;
   }
 `;
@@ -28,7 +28,7 @@ const StyledBlogParagraph = styled.p`
   padding-bottom: 40px;
   padding-left: 200px;
   padding-right: 200px;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     color: #7a7c84;
 		margin-left: 0;
 		margin-right: 0%;
@@ -45,7 +45,7 @@ const StyledBlogAnchor = styled.a`
   &:hover {
     color: #f2f2f2;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     color: #2c313f;
     &:hover {
       color: #efa700;

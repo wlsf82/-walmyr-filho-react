@@ -7,7 +7,7 @@ const StyledSocialImage = styled.img`
   &:hover {
     transform: scale(1.2);
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     padding-right: 8px;
     padding-top: 35px;
     width: 9%;

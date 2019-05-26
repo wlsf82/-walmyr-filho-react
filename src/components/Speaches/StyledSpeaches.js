@@ -4,7 +4,7 @@ const StyledSpeaches = styled.div`
   background-color: #f2f2f2;
   padding-bottom: 30px;
   padding-top: 6px;
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     align-content: center;
     background-color: #fff;
     padding: 12px;
@@ -20,7 +20,7 @@ const StyledSpeachesLeftDiv = styled.div`
   &:not(:last-child) {
     margin-right: 20px;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     margin: auto auto -26px auto;
     width: 90%;
     padding: 0;
@@ -36,7 +36,7 @@ const StyledSpeachesRightDiv = styled.div`
   &:not(:last-child) {
     margin-right: 20px;
   }
-  @media only screen and (max-device-width: 650px) {
+  @media (max-width: 650px) {
     margin: auto;
     width: 90%;
     padding: 0;

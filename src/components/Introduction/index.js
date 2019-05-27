@@ -20,9 +20,11 @@ const paragraphs = [
 
 const Introduction = () =>
   <StyledIntroduction>
-    { paragraphs.map(item =>
-      <p key={item.id}>{item.paragraph}</p>
-    )}
+    <div className="wrapper">
+      { paragraphs.map(item =>
+        <p key={item.id}>{item.paragraph}</p>
+      )}
+    </div>
   </StyledIntroduction>
 
 export default Introduction;

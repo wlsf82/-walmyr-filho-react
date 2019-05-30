@@ -2,8 +2,9 @@ import React from "react";
 import uuid from "uuid/v4";
 
 import StyledServices, {
-  StyledServicesDiv,
-  StyledServicesH3,
+  StyledServicesContainer,
+  StyledServicesInsideContainer,
+  StyledServicesLink,
   StyledServicesParagraph,
 } from "./StyledServices";
 
@@ -30,14 +31,22 @@ const services = [
 
 const Services = () =>
   <StyledServices>
-    { services.map(service =>
-      <StyledServicesDiv key={service.id}>
-        <StyledServicesH3>
-          <a href={service.href} target="_blank" rel="noopener noreferrer">{service.h3}</a>
-        </StyledServicesH3>
-        <StyledServicesParagraph>{service.p}</StyledServicesParagraph>
-      </StyledServicesDiv>
-    )}
+    <div className="wrapper">
+      <StyledServicesContainer>
+        { services.map(service =>
+          <StyledServicesInsideContainer key={service.id}>
+            <StyledServicesLink
+              href={service.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{service.h3}</h3>
+              <StyledServicesParagraph>{service.p}</StyledServicesParagraph>
+            </StyledServicesLink>
+          </StyledServicesInsideContainer>
+        )}
+      </StyledServicesContainer>
+    </div>
   </StyledServices>
 
 export default Services;

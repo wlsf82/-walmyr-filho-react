@@ -23,14 +23,6 @@ injectGlobal`
     color: #efa700;
   }
 
-  #courses-h2-anchor {
-    color: #7a7c84;
-  }
-
-  #courses-h2-anchor:hover {
-    color: #efa700;
-  }
-
   h1, h2, h3 {
     text-transform: uppercase;
   }

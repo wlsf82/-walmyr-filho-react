@@ -4,7 +4,8 @@ import uuid from "uuid/v4";
 import StyledCourses, {
   StyledCoursesH2,
   StyledCoursesContainer,
-  StyledCoursesDivInsideContainer,
+  StyledCoursesInsideContainer,
+  StyledCoursesLink,
   StyledCoursesParagraph,
 } from "./StyledCourses";
 
@@ -31,26 +32,32 @@ const courses = [
 
 const Courses = () =>
   <StyledCourses>
-    <StyledCoursesH2>
-      <a
-        id="courses-h2-anchor"
-        href="http://talkingabouttesting.coursify.me"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Cursos
-      </a>
-    </StyledCoursesH2>
-    <StyledCoursesContainer>
-      { courses.map(item =>
-        <StyledCoursesDivInsideContainer key={item.id}>
-          <h3>
-            <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
-          </h3>
-          <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
-        </StyledCoursesDivInsideContainer>
-      )}
-    </StyledCoursesContainer>
+    <div className="wrapper">
+      <StyledCoursesH2>
+        <a
+          id="courses-h2-anchor"
+          href="http://talkingabouttesting.coursify.me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cursos
+        </a>
+      </StyledCoursesH2>
+      <StyledCoursesContainer>
+        { courses.map(item =>
+          <StyledCoursesInsideContainer key={item.id}>
+            <StyledCoursesLink
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <h3>{item.title}</h3>
+              <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
+            </StyledCoursesLink>
+          </StyledCoursesInsideContainer>
+        )}
+      </StyledCoursesContainer>
+    </div>
   </StyledCourses>
 
 export default Courses;

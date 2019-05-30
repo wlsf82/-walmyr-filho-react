@@ -42,8 +42,6 @@ const StyledBlogWrapper = styled.div`
 // StyledBlogH2
 ////////////////////////////////////////////////////////////////////////////////
 const StyledBlogH2 = styled.h2`
-  font-size: 250%;
-  line-height: 120%;
   margin-top: 0;
   margin-bottom: 24px;
   text-shadow: 1px 1px 0 rgba(0,0,0, 1);
@@ -53,7 +51,6 @@ const StyledBlogH2 = styled.h2`
 // StyledBlogH3
 ////////////////////////////////////////////////////////////////////////////////
 const StyledBlogH3 = styled.h3`
-  font-size: 150%;
   margin-top: 0;
   margin-bottom: 24px;
   text-shadow: 1px 1px 0 rgba(0,0,0, 1);

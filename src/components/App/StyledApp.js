@@ -33,6 +33,8 @@ injectGlobal`
   // .wrapper
   //////////////////////////////////////////////////////////////////////////////
   .wrapper {
+    position: relative;
+    z-index: 1;
     max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;

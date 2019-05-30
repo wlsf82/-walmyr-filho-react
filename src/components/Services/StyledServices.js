@@ -1,50 +1,78 @@
 import styled from "styled-components";
 
+////////////////////////////////////////////////////////////////////////////////
+// StyledServices
+////////////////////////////////////////////////////////////////////////////////
 const StyledServices = styled.div`
-  background-color: #f2f2f2;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 48px 0;
+  background-color: #ededed
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledServicesContainer
+////////////////////////////////////////////////////////////////////////////////
+const StyledServicesContainer = styled.ul`
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  margin: 0;
+
+  @media (min-width: 960px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledServicesInsideContainer
+////////////////////////////////////////////////////////////////////////////////
+const StyledServicesInsideContainer = styled.li`
+  list-style: none;
+  margin-bottom: 24px;
+  background: #fff;
+  box-shadow: 1px 1px 3px -1px rgba(0,0,0, 0.3);
+  transition: background 0.3s ease;
+
+  :hover {
+    background-color: rgba(240, 165, 0, 0.7);
+  }
+
+  @media (min-width: 960px) {
+    flex-basis: calc(100% / 3 - 20px)
+  }
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledServicesLink
+////////////////////////////////////////////////////////////////////////////////
+const StyledServicesLink = styled.a`
   display: flex;
-  justify-content: space-around;
-  @media (max-width: 650px) {
-    background-color: #fff;
-    padding-bottom: 0;
-    padding-left: 12px;
-    padding-right: 12px;
-    display: block;
-    border-bottom: 5px dotted #f2f2f2;
+  flex-direction: column;
+  height: 100%;
+  padding: 12px;
+  border-radius: 3px;
+
+  :hover {
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0,0,0, 0.5);
   }
+
 `;
 
-const StyledServicesDiv = styled.div`
-  background-color: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px;
-  vertical-align: text-top;
-  width: calc(90% / 3);
-  &:not(:last-child) {
-    margin-right: 20px;
-  }
-  @media (max-width: 650px) {
-    display:table-row;
-    width: 90%;
-  }
-`;
-
-const StyledServicesH3 = styled.h3`
-  color: #efa700;
-`;
-
+////////////////////////////////////////////////////////////////////////////////
+// StyledServicesParagraph
+////////////////////////////////////////////////////////////////////////////////
 const StyledServicesParagraph = styled.p`
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-top: 0;
 `;
 
-export { StyledServicesDiv, StyledServicesH3, StyledServicesParagraph };
+////////////////////////////////////////////////////////////////////////////////
+// Export
+////////////////////////////////////////////////////////////////////////////////
+export {
+  StyledServicesContainer,
+  StyledServicesInsideContainer,
+  StyledServicesLink,
+  StyledServicesParagraph
+};
 
 export default StyledServices;

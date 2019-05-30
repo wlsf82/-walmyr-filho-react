@@ -23,12 +23,24 @@
     "jquery": "^3.4.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^3.0.1",
     "styled-components": "^3.4.2",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
     "backstopjs": "^3.8.5"
   },
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

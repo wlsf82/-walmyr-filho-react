@@ -1,7 +1,12 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import StyledSpeaches, { StyledSpeachesLeftDiv, StyledSpeachesRightDiv, StyledSpeachesH3 } from "./StyledSpeaches";
+import StyledSpeaches, {
+  StyledSpeachesH2,
+  StyledSpeachesContainer,
+  StyledSpeachesBlock,
+  StyledSpeacheItem
+} from "./StyledSpeaches";
 
 const leftSideSpeaches = [
   {
@@ -74,21 +79,25 @@ const targetValue = "_blank";
 
 const Speaches = () =>
   <StyledSpeaches>
-    <h2>Palestras e eventos</h2>
-    <StyledSpeachesLeftDiv>
-      { leftSideSpeaches.map(item =>
-        <StyledSpeachesH3 key={item.id}>
-          <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-        </StyledSpeachesH3>
-      )}
-    </StyledSpeachesLeftDiv>
-    <StyledSpeachesRightDiv>
-      { rightSideSpeaches.map(item =>
-        <StyledSpeachesH3 key={item.id}>
-          <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-        </StyledSpeachesH3>
-      )}
-    </StyledSpeachesRightDiv>
+    <div className="wrapper">
+      <StyledSpeachesH2>Palestras e eventos</StyledSpeachesH2>
+      <StyledSpeachesContainer>
+        <StyledSpeachesBlock>
+          { leftSideSpeaches.map(item =>
+            <StyledSpeacheItem key={item.id}>
+              <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
+            </StyledSpeacheItem>
+          )}
+        </StyledSpeachesBlock>
+        <StyledSpeachesBlock>
+          { rightSideSpeaches.map(item =>
+            <StyledSpeacheItem key={item.id}>
+              <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
+            </StyledSpeacheItem>
+          )}
+        </StyledSpeachesBlock>
+      </StyledSpeachesContainer>
+    </div>
   </StyledSpeaches>
 
 export default Speaches;

@@ -8,6 +8,8 @@ const GoToTopButton = () =>
     rel="noopener noreferrer"
     target="_self"
     title="Voltar para o topo da página"
-  >🔝</StyledGoToTopButton>
+  >
+    <span role="img" aria-label="Top">🔝</span>
+  </StyledGoToTopButton>
 
 export default GoToTopButton;

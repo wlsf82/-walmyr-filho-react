@@ -6,24 +6,21 @@ import styled from "styled-components";
 const StyledGoToTopButton = styled.a`
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 24px;
+  right: 24px;
   z-index: 99; /* Make sure it does not overlap */
-  border: none;
+  padding: 12px 12px 6px 12px;
+  border-radius: 2px;
   outline: none;
-  background-color: #7a7c84;
-  color: #fff;
   cursor: pointer;
-  opacity: 0.5;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+  font-size: 32px;
+  opacity: 0.6;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0, 0.5);
+
   &:hover {
-    background-color: #000;
     color: #fff;
-  }
-  @media (max-width: 650px) {
-    display: none !important;
+    opacity: 1;
   }
 `;
 

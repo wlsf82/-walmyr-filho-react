@@ -1,5 +1,4 @@
 import React from "react";
-
 import StyledGoToTopButton from "./StyledGoToTopButton";
 
 const GoToTopButton = () =>
@@ -8,9 +7,7 @@ const GoToTopButton = () =>
     href="#top"
     rel="noopener noreferrer"
     target="_self"
-    title="Vai pro topo"
-  >
-    Topo ^
-  </StyledGoToTopButton>
+    title="Voltar para o topo da página"
+  >🔝</StyledGoToTopButton>
 
 export default GoToTopButton;

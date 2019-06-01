@@ -1,9 +1,0 @@
-@media (max-width: 650px) {
-	header.small {
-		height: 60px;
-	}
-
-	header.small h1 {
-		font-size: 110%;
-	}
-}

@@ -1,52 +1,68 @@
 import styled from "styled-components";
 
+////////////////////////////////////////////////////////////////////////////////
+// StyledSpeaches
+////////////////////////////////////////////////////////////////////////////////
 const StyledSpeaches = styled.div`
-  background-color: #f2f2f2;
-  padding-bottom: 30px;
-  padding-top: 6px;
-  @media (max-width: 650px) {
-    align-content: center;
-    background-color: #fff;
-    padding: 12px;
+  padding: 48px 0;
+  background-color: #ededed;
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledSpeachesH2
+////////////////////////////////////////////////////////////////////////////////
+const StyledSpeachesH2 = styled.h2`
+  margin-top: 0;
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledSpeachesContainer
+////////////////////////////////////////////////////////////////////////////////
+const StyledSpeachesContainer = styled.div`
+  @media (min-width: 960px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 `;
 
-const StyledSpeachesLeftDiv = styled.div`
+////////////////////////////////////////////////////////////////////////////////
+// StyledSpeachesBlock
+////////////////////////////////////////////////////////////////////////////////
+const StyledSpeachesBlock = styled.ul`
+  flex-basis: calc(100% / 2 - 24px);
+  border-radius: 3px;
+  margin: 0;
+
+  @media (min-width: 960px) {
+    box-shadow: 1px 1px 3px -1px rgba(0,0,0,0.3);
+  }
+`;
+
+////////////////////////////////////////////////////////////////////////////////
+// StyledSpeacheItem
+////////////////////////////////////////////////////////////////////////////////
+const StyledSpeacheItem = styled.li`
+  padding: 12px;
+  list-style: none;
+  margin-bottom: 2px;
   background-color: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  vertical-align: text-top;
-  width: calc(90% / 2);
-  &:not(:last-child) {
-    margin-right: 20px;
-  }
-  @media (max-width: 650px) {
-    margin: auto auto -26px auto;
-    width: 90%;
-    padding: 0;
+
+  @media (min-width: 960px) {
+    :last-child {
+      margin-bottom: 0;
+    }
   }
 `;
 
-const StyledSpeachesRightDiv = styled.div`
-  background-color: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  vertical-align: text-top;
-  width: calc(90% / 2);
-  &:not(:last-child) {
-    margin-right: 20px;
-  }
-  @media (max-width: 650px) {
-    margin: auto;
-    width: 90%;
-    padding: 0;
-  }
-`;
-
-const StyledSpeachesH3 = styled.h3`
-  text-transform: none;
-`;
-
-export { StyledSpeachesLeftDiv, StyledSpeachesRightDiv, StyledSpeachesH3 };
+////////////////////////////////////////////////////////////////////////////////
+// Export
+////////////////////////////////////////////////////////////////////////////////
+export {
+  StyledSpeachesBlock,
+  StyledSpeachesH2,
+  StyledSpeachesContainer,
+  StyledSpeacheItem
+};
 
 export default StyledSpeaches;

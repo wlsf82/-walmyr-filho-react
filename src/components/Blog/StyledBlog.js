@@ -7,7 +7,6 @@ import tatBackground from "./assets/tatBackground.jpg";
 const StyledBlog = styled.div`
   position: relative;
   display: flex;
-  flex-direction: collumn;
   align-items: center;
   min-height: 70vh;
   padding: 48px 0;
@@ -34,7 +33,7 @@ const StyledBlog = styled.div`
 // StyledBlogWrapper
 ////////////////////////////////////////////////////////////////////////////////
 const StyledBlogWrapper = styled.div`
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
 `;
 

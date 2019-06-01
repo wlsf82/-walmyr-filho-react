@@ -67,6 +67,8 @@ injectGlobal`
 ////////////////////////////////////////////////////////////////////////////////
 const StyledApp = styled.div`
   font-family: "Lato", sans-serif;
+const StyledApp = styled.main`
+  font-family: sans-serif;
   font-size: 20px;
   text-align: center;
 `;

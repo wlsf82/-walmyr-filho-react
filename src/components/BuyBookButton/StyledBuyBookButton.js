@@ -1,25 +1,22 @@
 import styled from "styled-components";
 
 const StyledBuyBookButton = styled.a`
-  background-color: #2c313f;
-  border-radius: 65px;
-  border-style: none;
+  display: inline-block;
+  padding: 12px 48px;
+  margin: 24px 0;
   color: #fff;
-  font-size: 13px;
   font-weight: bold;
-  height: 37.4688px;
+  line-height: 120%;
   letter-spacing: 0.8125px;
-  padding: 5px 19.5px 0 19.5px;
-  text-transform: uppercase;
-  display: table;
-  margin: auto;
+  text-align: center;
+  background-color: rgba(45, 50, 65, 0.9);
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
+  transition: background 0.3s ease;
   &:hover {
-    background-color: #efa700;
     color: #fff;
-  }
-  @media (max-width: 650px) {
-    display: none;
-  }
+    text-shadow: none;
+    background-color: rgba(240, 165, 0, 0.7);
+    box-shadow: 1px 1px 3px rgba(0,0,0, 0);
 `;
 
 export default StyledBuyBookButton;

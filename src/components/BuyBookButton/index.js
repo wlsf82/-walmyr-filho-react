@@ -1,5 +1,4 @@
 import React from "react";
-
 import StyledBuyBookButton from "./StyledBuyBookButton";
 
 const BuyBookButton = () =>

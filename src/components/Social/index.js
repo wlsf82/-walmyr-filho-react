@@ -1,8 +1,6 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import StyledSocialImage from "./StyledSocialImage";
-
 import facebookImg from "./assets/facebook.png";
 import githubImg from "./assets/github.png";
 import gitlabImg from "./assets/gitlab.png";
@@ -10,6 +8,12 @@ import linkedinImg from "./assets/linkedin.png";
 import twitterImg from "./assets/twitter.png";
 import wordpressImg from "./assets/wordpress.png";
 import youtubeImg from "./assets/youtube.png";
+
+import StyledSocial, {
+  StyledSocialItem,
+  StyledSocialLink,
+  StyledSocialImage
+} from "./StyledSocial";
 
 const socialData = [
   {
@@ -57,12 +61,14 @@ const socialData = [
 ];
 
 const Social = () =>
-  <div>
+  <StyledSocial>
     { socialData.map(item =>
-      <a href={item.href} target="_blank" rel="noopener noreferrer" key={item.id}>
-        <StyledSocialImage src={item.img} alt={item.alt}/>
-      </a>
+      <StyledSocialItem>
+        <StyledSocialLink href={item.href} target="_blank" rel="noopener noreferrer" key={item.id}>
+          <StyledSocialImage src={item.img} alt={item.alt} />
+        </StyledSocialLink>
+      </StyledSocialItem>
     )}
-  </div>
+  </StyledSocial>
 
 export default Social;

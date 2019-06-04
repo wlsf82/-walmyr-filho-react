@@ -6,11 +6,11 @@ import StyledIntroduction from "./StyledIntroduction";
 const paragraphs = [
   {
     id: uuid(),
-    paragraph: "Sou um desenvolvedor de software focado em testes automatizados e integração/entrega contínua e apaixonado pelo que faz.",
+    paragraph: "Sou um desenvolvedor de software focado em testes automatizados e integração contínua e apaixonado pelo que faz.",
   },
   {
     id: uuid(),
-    paragraph: "Ajudo pessoas a se tornarem melhores profissionais atravéz do uso de boas práticas de mercado e conscientização.",
+    paragraph: "Ajudo pessoas a se tornarem melhores profissionais através de boas práticas de mercado e conscientização.",
   },
   {
     id: uuid(),

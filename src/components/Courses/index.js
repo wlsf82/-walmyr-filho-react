@@ -9,7 +9,7 @@ import StyledCourses, {
   StyledCoursesParagraph,
 } from "./StyledCourses";
 
-const courses = [
+const topCourses = [
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
@@ -18,15 +18,36 @@ const courses = [
   },
   {
     id: uuid(),
+    href: "http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-basico",
+    title: "Cypress",
+    p: "Curso prático sobre testes automatizados com Cypress (básico)",
+  },
+  {
+    id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
     title: "Protractor",
     p: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
   },
+];
+
+const bottomCourses = [
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
     title: "BackstopJS",
     p: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
+  },
+  {
+    id: uuid(),
+    href: "http://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
+    title: "backstop-config",
+    p: "Curso prático sobre testes de regressão visual para webistes estáticos",
+  },
+  {
+    id: uuid(),
+    href: "https://www.udemy.com/introduction-to-test-automation/",
+    title: "Test automation",
+    p: "A theoretical course about test automation in many different application layers",
   },
 ];
 
@@ -44,7 +65,21 @@ const Courses = () =>
         </a>
       </StyledCoursesH2>
       <StyledCoursesContainer>
-        { courses.map(item =>
+        { topCourses.map(item =>
+          <StyledCoursesInsideContainer key={item.id}>
+            <StyledCoursesLink
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <h3>{item.title}</h3>
+              <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
+            </StyledCoursesLink>
+          </StyledCoursesInsideContainer>
+        )}
+      </StyledCoursesContainer>
+      <StyledCoursesContainer>
+        { bottomCourses.map(item =>
           <StyledCoursesInsideContainer key={item.id}>
             <StyledCoursesLink
                 href={item.href}

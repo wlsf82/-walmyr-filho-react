@@ -45,9 +45,8 @@ const bottomCourses = [
   },
   {
     id: uuid(),
-    href: "https://www.udemy.com/introduction-to-test-automation/",
-    title: "Test automation",
-    p: "A theoretical course about test automation in many different application layers",
+    title: "Novo curso ...",
+    p: "... em breve",
   },
 ];
 

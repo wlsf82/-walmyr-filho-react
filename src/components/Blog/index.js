@@ -9,8 +9,6 @@ import StyledBlog, {
   StyledBlogAnchor
 } from "./StyledBlog";
 
-
-
 const Blog = () =>
   <StyledBlog>
     <div className="wrapper">
@@ -20,10 +18,10 @@ const Blog = () =>
         <StyledBlogH3>Talking About Testing</StyledBlogH3>
         <StyledBlogParagraph>Criado para compartilhar conhecimento sobre meus aprendizados ao longo da carreira, com conteúdos para reflexão, mas também com muito conteúdo "mão na massa"</StyledBlogParagraph>
         <StyledBlogAnchor
-            href="https://talkingabouttesting.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Leia mais</StyledBlogAnchor>
+          href="https://talkingabouttesting.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Leia mais</StyledBlogAnchor>
       </StyledBlogWrapper>
     </div>
   </StyledBlog>

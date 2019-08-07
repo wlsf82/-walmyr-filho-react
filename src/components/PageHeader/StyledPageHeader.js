@@ -27,7 +27,6 @@ const StyledPageHeaderH1Span = styled.span`
 `;
 
 export {
-  StyledPageHeaderAnchor,
   StyledPageHeaderH1,
   StyledPageHeaderH1Span
 };

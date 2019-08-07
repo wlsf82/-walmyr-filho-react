@@ -47,10 +47,8 @@ export {
   StyledBookH2,
   StyledBookH3,
   StyledBookH4,
-  StyledBlogParagraph,
   StyledBookImage,
-  StyleBookDescription,
-  StyleBookPreview
+  StyleBookDescription
 };
 
 export default StyledBook;

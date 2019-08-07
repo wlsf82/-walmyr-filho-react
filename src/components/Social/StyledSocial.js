@@ -26,8 +26,7 @@ const StyledSocialLink = styled.a`
 
 export {
   StyledSocialItem,
-  StyledSocialLink,
-  StyledSocialImage
+  StyledSocialLink
 };
 
 export default StyledSocial;

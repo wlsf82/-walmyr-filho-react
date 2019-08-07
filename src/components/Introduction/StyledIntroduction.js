@@ -9,16 +9,12 @@ const StyledIntroduction = styled.div`
   font-size: 120%;
   line-height: 120%;
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
-}
 
-@media (min-width: 960px) {
-  min-height: 50vh;
-  font-size: 160%;
-  text-align: left;
-}
+  @media (min-width: 960px) {
+    min-height: 50vh;
+    font-size: 160%;
+    text-align: left;
+  }
 `;
 
-////////////////////////////////////////////////////////////////////////////////
-// Export
-////////////////////////////////////////////////////////////////////////////////
 export default StyledIntroduction;

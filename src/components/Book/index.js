@@ -5,10 +5,8 @@ import StyledBook, {
   StyledBookH2,
   StyledBookH3,
   StyledBookH4,
-  StyledBlogParagraph,
   StyledBookImage,
-  StyleBookDescription,
-  StyleBookPreview
+  StyleBookDescription
 } from "./StyledBook";
 
 import BuyBookButton from "../BuyBookButton";
@@ -26,14 +24,12 @@ const Book = () =>
           <StyledBookH2>Livro</StyledBookH2>
           <StyledBookH3>Protractor</StyledBookH3>
           <StyledBookH4>Lições sobre testes end-to-end automatizados</StyledBookH4>
-          <StyledBlogParagraph>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</StyledBlogParagraph>
+          <p>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
           <BuyBookButton />
         </StyleBookDescription>
-        <StyleBookPreview>
-          <a href={bookUrl} target={targetValue} rel={relValue}>
-            <StyledBookImage src={bookImage} alt="Livro: Protractor - Lições sobre testes end-to-end automatizados"/>
-          </a>
-        </StyleBookPreview>
+        <a href={bookUrl} target={targetValue} rel={relValue}>
+          <StyledBookImage src={bookImage} alt="Livro: Protractor - Lições sobre testes end-to-end automatizados"/>
+        </a>
       </StyledBookContainer>
     </div>
   </StyledBook>

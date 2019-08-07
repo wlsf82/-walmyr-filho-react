@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledCourses = styled.div`
   padding: 48px 0;
-  background-color: #ededed
+  background-color: #ededed;
 `;
 
 const StyledCoursesH2 = styled.h2`

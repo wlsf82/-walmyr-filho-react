@@ -11,8 +11,7 @@ import youtubeImg from "./assets/youtube.png";
 
 import StyledSocial, {
   StyledSocialItem,
-  StyledSocialLink,
-  StyledSocialImage
+  StyledSocialLink
 } from "./StyledSocial";
 
 const socialData = [
@@ -63,9 +62,9 @@ const socialData = [
 const Social = () =>
   <StyledSocial>
     { socialData.map(item =>
-      <StyledSocialItem>
+      <StyledSocialItem key={item.id}>
         <StyledSocialLink href={item.href} target="_blank" rel="noopener noreferrer" key={item.id}>
-          <StyledSocialImage src={item.img} alt={item.alt} />
+          <img src={item.img} alt={item.alt} />
         </StyledSocialLink>
       </StyledSocialItem>
     )}

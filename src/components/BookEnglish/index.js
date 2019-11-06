@@ -12,10 +12,10 @@ import StyledBook, {
 import BuyBookButton from "../BuyBookButton";
 import bookImage from "./assets/bookcover.png"
 
-const book = "Livro";
+const book = "Book";
 const bookTitle = "Protractor";
-const bookSubTitle = "Lições sobre testes end-to-end automatizados";
-const bookUrl = "https://www.casadocodigo.com.br/products/livro-protractor";
+const bookSubTitle = "Lessons learned about end-to-end test automation";
+const bookUrl = "https://leanpub.com/end-to-end-testing-with-protractor";
 const relValue = "noopener noreferrer";
 const targetValue = "_blank";
 
@@ -23,16 +23,16 @@ const Book = () =>
   <StyledBook>
     <div className="wrapper">
       <StyledBookContainer>
+        <a href={bookUrl} target={targetValue} rel={relValue}>
+          <StyledBookImage src={bookImage} alt={ `${book}: ${bookTitle} - ${bookSubTitle}` }/>
+        </a>
         <StyleBookDescription>
           <StyledBookH2>{ book }</StyledBookH2>
           <StyledBookH3>{ bookTitle }</StyledBookH3>
           <StyledBookH4>{ bookSubTitle }</StyledBookH4>
-          <p>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
-          <BuyBookButton hrefValue={ bookUrl }>Compre o livro</BuyBookButton>
+          <p>In this book, you will find a collection of best practices to implement automated end-to-end tests in the development process of web applications, using the framework Protractor.</p>
+          <BuyBookButton hrefValue={ bookUrl }>Buy the book</BuyBookButton>
         </StyleBookDescription>
-        <a href={bookUrl} target={targetValue} rel={relValue}>
-          <StyledBookImage src={bookImage} alt={ `${book}: ${bookTitle} - ${bookSubTitle}` }/>
-        </a>
       </StyledBookContainer>
     </div>
   </StyledBook>

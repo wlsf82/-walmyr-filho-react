@@ -1,13 +1,13 @@
 import React from "react";
 import StyledBuyBookButton from "./StyledBuyBookButton";
 
-const BuyBookButton = () =>
+const BuyBookButton = props =>
   <StyledBuyBookButton
-    href="https://www.casadocodigo.com.br/products/livro-protractor"
+    href={ props.hrefValue }
     target="_blank"
     rel="noopener noreferrer"
   >
-    Compre o livro
+    { props.children }
   </StyledBuyBookButton>
 
 export default BuyBookButton;

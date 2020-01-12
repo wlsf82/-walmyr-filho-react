@@ -11,7 +11,7 @@ import StyledServices, {
 const services = [
   {
     id: uuid(),
-    h3: "Coaching",
+    h3: "Mentoria",
     p: "Ajudo profissionais a se desenvolverem para melhor se posicionarem no mercado, contribuir em comunidades, trabalhar no exterior, trabalhar em ambientes ágeis e muito mais",
     href: "https://talkingabouttesting.com/servicos/mentoria-coaching/",
   },

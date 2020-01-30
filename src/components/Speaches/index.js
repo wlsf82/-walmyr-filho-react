@@ -11,6 +11,16 @@ import StyledSpeaches, {
 const leftSideSpeaches = [
   {
     id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
+    title: "Agile, Testing & DevOps Showcase Amsterdam 2020"
+  },
+  {
+    id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
+    title: "DevOpsDays Warsaw 2019",
+  },
+  {
+    id: uuid(),
     href: "https://speakerdeck.com/wlsf82/testes-de-regressao-visual-xpconfbr-2018-online",
     title: "XP Conf BR Online 2018",
   },
@@ -34,14 +44,14 @@ const leftSideSpeaches = [
     href: "https://goo.gl/11VEhl",
     title: "TDC Floripa 2016",
   },
+];
+
+const rightSideSpeaches = [
   {
     id: uuid(),
     href: "http://www.slideshare.net/walmyrlimasilvafilho/protractor-style-guide-agile-testers-conference-2016",
     title: "Conferência Agile Testers 2016",
   },
-];
-
-const rightSideSpeaches = [
   {
     id: uuid(),
     href: "http://www.slideshare.net/walmyrlimasilvafilho/primeiros-passos-com-protractor-gutssc",

@@ -11,6 +11,16 @@ import StyledSpeaches, {
 const leftSideSpeaches = [
   {
     id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/esquenta-qax",
+    title: "Esquenta QAXperience 2020"
+  },
+  {
+    id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/agile-testing-a-quality-culture-in-the-companys-core-business",
+    title: "Agile, Testing & DevOps Showcase Manchester 2020"
+  },
+  {
+    id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
     title: "Agile, Testing & DevOps Showcase Amsterdam 2020"
   },
@@ -39,14 +49,14 @@ const leftSideSpeaches = [
     href: "https://www.slideshare.net/walmyrlimasilvafilho/agile-testing-coach-agile-lean-ireland-2017",
     title: "Agile Lean Ireland 2017",
   },
+];
+
+const rightSideSpeaches = [
   {
     id: uuid(),
     href: "https://goo.gl/11VEhl",
     title: "TDC Floripa 2016",
   },
-];
-
-const rightSideSpeaches = [
   {
     id: uuid(),
     href: "http://www.slideshare.net/walmyrlimasilvafilho/protractor-style-guide-agile-testers-conference-2016",

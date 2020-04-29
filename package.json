@@ -20,7 +20,7 @@
     "backstop:reference": "rm -rf test-report/backstopjs-report/bitmaps_reference && backstop --config=test/visual-regression/backstop.json reference"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "^3.4.0",

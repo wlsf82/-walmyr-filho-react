@@ -1,7 +1,6 @@
 import React from "react";
 import uuid from "uuid/v4";
 
-import facebookImg from "./assets/facebook.png";
 import githubImg from "./assets/github.png";
 import gitlabImg from "./assets/gitlab.png";
 import linkedinImg from "./assets/linkedin.png";
@@ -15,12 +14,6 @@ import StyledSocial, {
 } from "./StyledSocial";
 
 const socialData = [
-  {
-    id: uuid(),
-    alt: "Facebook",
-    img: facebookImg,
-    href: "https://www.facebook.com/walmyr.limasilvafilho",
-  },
   {
     id: uuid(),
     alt: "GitHub",

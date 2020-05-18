@@ -12,7 +12,7 @@
     "npm": "6.14.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build",
     "test": "npm run test:visual",
@@ -25,13 +25,13 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "^3.4.0",
+    "serve": "^11.3.0",
     "styled-components": "^3.4.2",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
     "backstopjs": "^5.0.1"
   },
-  "heroku-run-build-script": true,
   "browserslist": {
     "production": [
       ">0.2%",

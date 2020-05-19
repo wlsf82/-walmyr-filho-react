@@ -12,14 +12,22 @@ if (module.hot) {
 
 registerServiceWorker();
 
-window.onscroll = () => scrollFunction();
+const goToTopButton = document.getElementById("go-to-top");
 
-function scrollFunction() {
+goToTopButton.onclick = () => goToTop();
+
+document.querySelector('h1').onclick = () => goToTop();
+
+function goToTop() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+window.onscroll = () => {
   document.body.scrollTop > 100 || document.documentElement.scrollTop > 100
     ? setDisplayAttributeOfGoToTopButton("block")
     : setDisplayAttributeOfGoToTopButton("none");
 }
 
 function setDisplayAttributeOfGoToTopButton(attribute) {
-  document.getElementById("go-to-top").style.display = attribute;
+  goToTopButton.style.display = attribute;
 }

@@ -8,7 +8,7 @@ import StyledPageHeader, {
 const PageHeader = () =>
   <StyledPageHeader>
     <StyledPageHeaderH1>
-      <a href="#top">
+      <a style={{ cursor: 'pointer' }}>
         Walmyr <StyledPageHeaderH1Span>Lima e Silva </StyledPageHeaderH1Span>Filho
       </a>
     </StyledPageHeaderH1>

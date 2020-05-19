@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import $ from 'jquery';
 
 import App from "./components/App";
 import registerServiceWorker from "./registerServiceWorker";
@@ -12,17 +11,6 @@ if (module.hot) {
 }
 
 registerServiceWorker();
-
-$(document).on("scroll", () => {
-  $(document).scrollTop() > 100
-    ? $("header").addClass("small")
-    : $("header").removeClass("small");
-});
-
-$("a[href='#top']").click(() => {
-  $("html,body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
 
 window.onscroll = () => scrollFunction();
 

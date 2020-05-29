@@ -30,6 +30,27 @@ const topCourses = [
   },
 ];
 
+const bottomCourses = [
+  {
+    id: uuid(),
+    href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
+    title: "BackstopJS",
+    p: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
+  },
+  {
+    id: uuid(),
+    href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
+    title: "Protractor",
+    p: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
+  },
+  {
+    id: uuid(),
+    href: "http://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
+    title: "backstop-config",
+    p: "Curso prático sobre testes de regressão visual para webistes estáticos",
+  },
+];
+
 const Courses = () =>
   <StyledCourses>
     <div className="wrapper">
@@ -45,6 +66,20 @@ const Courses = () =>
       </StyledCoursesH2>
       <StyledCoursesContainer>
         { topCourses.map(item =>
+          <StyledCoursesInsideContainer key={item.id}>
+            <StyledCoursesLink
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <h3>{item.title}</h3>
+              <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
+            </StyledCoursesLink>
+          </StyledCoursesInsideContainer>
+        )}
+      </StyledCoursesContainer>
+      <StyledCoursesContainer>
+        { bottomCourses.map(item =>
           <StyledCoursesInsideContainer key={item.id}>
             <StyledCoursesLink
                 href={item.href}

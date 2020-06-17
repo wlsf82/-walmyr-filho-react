@@ -22,7 +22,7 @@ const leftSideSpeaches = [
   {
     id: uuid(),
     href: "https://youtu.be/JhGyMydRexU",
-    title: "Entrevista com Vinicius Pessoni - Junho de 2020"
+    title: "Pessonizando - Junho de 2020"
   },
   {
     id: uuid(),
@@ -37,12 +37,12 @@ const leftSideSpeaches = [
   {
     id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/agile-testing-a-quality-culture-in-the-companys-core-business",
-    title: "Agile, Testing & DevOps Showcase Manchester 2020"
+    title: "Agile, Testing & DevOps Manchester 2020"
   },
   {
     id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
-    title: "Agile, Testing & DevOps Showcase Amsterdam 2020"
+    title: "Agile, Testing & DevOps Amsterdam 2020"
   },
   {
     id: uuid(),

@@ -11,6 +11,26 @@ import StyledSpeaches, {
 const leftSideSpeaches = [
   {
     id: uuid(),
+    href: "https://youtu.be/NVKk_hyyuEA",
+    title: "Mentoria TAT - Junho de 2020"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/4bopG_hlr0I",
+    title: "[mais.dev] - Junho de 2020"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/JhGyMydRexU",
+    title: "Entrevista com Vinicius Pessoni - Junho de 2020"
+  },
+  {
+    id: uuid(),
+    href: "https://speakerdeck.com/wlsf82/a-importancia-da-mentoria-na-area-de-engenharia-de-software-e85659c1-d043-4143-bebe-ea0ebf4516e1",
+    title: "Manaus Community XP 2020 "
+  },
+  {
+    id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/esquenta-qax",
     title: "Esquenta QAXperience 2020"
   },
@@ -39,6 +59,9 @@ const leftSideSpeaches = [
     href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
     title: "Agile Tour Lithuania 2017",
   },
+];
+
+const rightSideSpeaches = [
   {
     id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/estrategias-para-o-uso-de-integracao-e-entrega-continua-com-gocd",
@@ -49,9 +72,6 @@ const leftSideSpeaches = [
     href: "https://www.slideshare.net/walmyrlimasilvafilho/agile-testing-coach-agile-lean-ireland-2017",
     title: "Agile Lean Ireland 2017",
   },
-];
-
-const rightSideSpeaches = [
   {
     id: uuid(),
     href: "https://goo.gl/11VEhl",

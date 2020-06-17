@@ -1,6 +1,8 @@
 import React from "react";
 import uuid from "uuid/v4";
 
+import ThinBanner from "../ThinBanner";
+
 import StyledCourses, {
   StyledCoursesH2,
   StyledCoursesContainer,
@@ -93,6 +95,7 @@ const Courses = () =>
         )}
       </StyledCoursesContainer>
     </div>
+    <ThinBanner />
   </StyledCourses>
 
 export default Courses;

@@ -1,15 +1,10 @@
 import React from "react";
 import uuid from "uuid/v4";
 
+import TitledContentBlock from "../TitledContentBlock";
 import ThinBanner from "../ThinBanner";
 
-import StyledCourses, {
-  StyledCoursesH2,
-  StyledCoursesContainer,
-  StyledCoursesInsideContainer,
-  StyledCoursesLink,
-  StyledCoursesParagraph,
-} from "./StyledCourses";
+import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 
 const topCourses = [
   {
@@ -66,34 +61,8 @@ const Courses = () =>
           Cursos
         </a>
       </StyledCoursesH2>
-      <StyledCoursesContainer>
-        { topCourses.map(item =>
-          <StyledCoursesInsideContainer key={item.id}>
-            <StyledCoursesLink
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              <h3>{item.title}</h3>
-              <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
-            </StyledCoursesLink>
-          </StyledCoursesInsideContainer>
-        )}
-      </StyledCoursesContainer>
-      <StyledCoursesContainer>
-        { bottomCourses.map(item =>
-          <StyledCoursesInsideContainer key={item.id}>
-            <StyledCoursesLink
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              <h3>{item.title}</h3>
-              <StyledCoursesParagraph>{item.p}</StyledCoursesParagraph>
-            </StyledCoursesLink>
-          </StyledCoursesInsideContainer>
-        )}
-      </StyledCoursesContainer>
+      <TitledContentBlock content={topCourses}/>
+      <TitledContentBlock content={bottomCourses}/>
     </div>
     <ThinBanner />
   </StyledCourses>

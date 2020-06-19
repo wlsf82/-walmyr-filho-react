@@ -30,7 +30,7 @@ const socialData = [
     id: uuid(),
     alt: "LinkedIn",
     img: linkedinImg,
-    href: "https://br.linkedin.com/in/walmyr-lima-e-silva-filho-147a9110a",
+    href: "https://www.linkedin.com/in/walmyr-lima-e-silva-filho-147a9110a",
   },
   {
     id: uuid(),

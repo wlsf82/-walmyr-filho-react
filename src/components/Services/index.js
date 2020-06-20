@@ -9,19 +9,19 @@ const services = [
   {
     id: uuid(),
     title: "Mentoria",
-    p: "Ajudo profissionais a se desenvolverem para melhor se posicionarem no mercado, contribuir em comunidades, trabalhar no exterior, trabalhar em ambientes ágeis e muito mais",
+    description: "Ajudo profissionais a se desenvolverem para melhor se posicionarem no mercado, contribuir em comunidades, trabalhar no exterior, trabalhar em ambientes ágeis e muito mais",
     href: "https://talkingabouttesting.com/servicos/mentoria-coaching/",
   },
   {
     id: uuid(),
     title: "Consultoria",
-    p: "Ajudo empresas e profissionais a implementarem práticas de programação extrema, lean e DevOps, para que entreguem software de qualidade aos seus clientes com agilidade",
+    description: "Ajudo empresas e profissionais a implementarem práticas de programação extrema, lean e DevOps, para que entreguem software de qualidade aos seus clientes com agilidade",
     href: "https://talkingabouttesting.com/servicos/consultoria/",
   },
   {
     id: uuid(),
     title: "Desenvolvimento",
-    p: "Desenvolvo testes end-to-end automatizados utilizando ferramentas modernas e boas práticas de mercado. Terceirize testes de GUI em seus projetos com quem já tem isso \"no sangue\"",
+    description: "Desenvolvo testes end-to-end automatizados utilizando ferramentas modernas e boas práticas de mercado. Terceirize testes de GUI em seus projetos com quem já tem isso \"no sangue\"",
     href: "https://talkingabouttesting.com/servicos/desenvolvimento/",
   },
 ];

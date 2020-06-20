@@ -11,19 +11,19 @@ const topCourses = [
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
     title: "Testes automatizados",
-    p: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
+    description: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
   },
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-basico",
     title: "Cypress básico",
-    p: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas",
+    description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas",
   },
   {
     id: uuid(),
     href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario#",
     title: "Cypress intermediário",
-    p: "Curso prático sobre como otimizar testes de GUI utilizando chamadas de APIs",
+    description: "Curso prático sobre como otimizar testes de GUI utilizando chamadas de APIs",
   },
 ];
 
@@ -32,19 +32,19 @@ const bottomCourses = [
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
     title: "BackstopJS",
-    p: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
+    description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
   },
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
     title: "Protractor",
-    p: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
+    description: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
   },
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
     title: "backstop-config",
-    p: "Curso prático sobre testes de regressão visual para webistes estáticos",
+    description: "Curso prático sobre testes de regressão visual para webistes estáticos",
   },
 ];
 

@@ -55,7 +55,7 @@ const TitledContentBlock = ({ content }) => (
           rel="noopener noreferrer"
         >
           <h3>{item.title}</h3>
-          <StyledContentParagraph>{item.p}</StyledContentParagraph>
+          <StyledContentParagraph>{item.description}</StyledContentParagraph>
         </StyledContentLink>
       </StyledContentInsideContainer>
     )}

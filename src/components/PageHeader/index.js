@@ -8,9 +8,9 @@ import StyledPageHeader, {
 const PageHeader = () =>
   <StyledPageHeader>
     <StyledPageHeaderH1>
-      <a style={{ cursor: 'pointer' }}>
+      <span style={{ cursor: 'pointer' }}>
         Walmyr <StyledPageHeaderH1Span>Lima e Silva </StyledPageHeaderH1Span>Filho
-      </a>
+      </span>
     </StyledPageHeaderH1>
   </StyledPageHeader>
 

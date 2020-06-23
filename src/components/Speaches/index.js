@@ -7,8 +7,8 @@ import StyledSpeaches, {
   StyledSpeachesContainer
 } from "./StyledSpeaches";
 
-import { leftSideSpeaches } from "./leftSideSpeaches";
-import { rightSideSpeaches } from "./rightSideSpeaches";
+import { leftSideSpeaches } from "./partials/leftSideSpeaches";
+import { rightSideSpeaches } from "./partials/rightSideSpeaches";
 
 const Speaches = () =>
   <StyledSpeaches>

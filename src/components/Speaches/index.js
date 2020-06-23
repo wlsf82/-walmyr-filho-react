@@ -1,11 +1,11 @@
 import React from "react";
 import uuid from "uuid/v4";
 
+import { SingleLineAnchoredBlock } from "./SingleLineAnchoredBlock";
+
 import StyledSpeaches, {
   StyledSpeachesH2,
-  StyledSpeachesContainer,
-  StyledSpeachesBlock,
-  StyledSpeacheItem
+  StyledSpeachesContainer
 } from "./StyledSpeaches";
 
 const leftSideSpeaches = [
@@ -114,28 +114,13 @@ const rightSideSpeaches = [
   },
 ];
 
-const relValue = "noopener noreferrer";
-const targetValue = "_blank";
-
 const Speaches = () =>
   <StyledSpeaches>
     <div className="wrapper">
       <StyledSpeachesH2>Palestras e eventos</StyledSpeachesH2>
       <StyledSpeachesContainer>
-        <StyledSpeachesBlock>
-          { leftSideSpeaches.map(item =>
-            <StyledSpeacheItem key={item.id}>
-              <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-            </StyledSpeacheItem>
-          )}
-        </StyledSpeachesBlock>
-        <StyledSpeachesBlock>
-          { rightSideSpeaches.map(item =>
-            <StyledSpeacheItem key={item.id}>
-              <a href={item.href} target={targetValue} rel={relValue}>{item.title}</a>
-            </StyledSpeacheItem>
-          )}
-        </StyledSpeachesBlock>
+        <SingleLineAnchoredBlock lines={leftSideSpeaches} />
+        <SingleLineAnchoredBlock lines={rightSideSpeaches} />
       </StyledSpeachesContainer>
     </div>
   </StyledSpeaches>

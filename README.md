@@ -2,7 +2,7 @@
 
 My personal web site created using `create-react-app`.
 
-Link to the website in production: https://walmyr-filho.com
+Link to the website in production: http://walmyr-filho.com
 
 ## Installation
 

@@ -30,6 +30,12 @@ const topCourses = [
 const bottomCourses = [
   {
     id: uuid(),
+    href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-e-percy-basico",
+    title: "Cypress e Percy básico",
+    description: "Curso prático sobre testes de comparação de snapshots",
+  },
+  {
+    id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
     title: "BackstopJS",
     description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
@@ -39,12 +45,6 @@ const bottomCourses = [
     href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
     title: "Protractor",
     description: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
-  },
-  {
-    id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
-    title: "backstop-config",
-    description: "Curso prático sobre testes de regressão visual para webistes estáticos",
   },
 ];
 

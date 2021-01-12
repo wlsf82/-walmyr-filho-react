@@ -48,7 +48,7 @@ const socialData = [
     id: uuid(),
     alt: "YouTube",
     img: youtubeImg,
-    href: "https://www.youtube.com/user/wlsf82/videos",
+    href: "https://www.youtube.com/c/TalkingAboutTesting",
   },
 ];
 

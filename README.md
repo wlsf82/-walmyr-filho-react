@@ -2,7 +2,7 @@
 
 My personal web site created using `create-react-app`.
 
-Link to the website: http://walmyr-filho-react.herokuapp.com
+Link to the website: http://walmyrfilho.com
 
 ## Installation
 

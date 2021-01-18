@@ -3,6 +3,16 @@ import uuid from "uuid/v4";
 export const leftSideSpeaches = [
   {
     id: uuid(),
+    href: "https://youtu.be/ruSSRfqHTGk",
+    title: "Live #2 TAT - Cypress RWA - 2021"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/rELAb0ZmzJc",
+    title: "Live #1 TAT - Cypress RWA - 2021"
+  },
+  {
+    id: uuid(),
     href: "https://youtu.be/NVKk_hyyuEA",
     title: "Mentoria TAT - Junho de 2020"
   },
@@ -45,10 +55,5 @@ export const leftSideSpeaches = [
     id: uuid(),
     href: "https://speakerdeck.com/wlsf82/testes-de-regressao-visual-xpconfbr-2018-online",
     title: "XP Conf BR Online 2018",
-  },
-  {
-    id: uuid(),
-    href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
-    title: "Agile Tour Lithuania 2017",
   },
 ];

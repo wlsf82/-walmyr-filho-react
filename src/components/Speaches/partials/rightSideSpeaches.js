@@ -3,6 +3,11 @@ import uuid from "uuid/v4";
 export const rightSideSpeaches = [
   {
     id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
+    title: "Agile Tour Lithuania 2017",
+  },
+  {
+    id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/estrategias-para-o-uso-de-integracao-e-entrega-continua-com-gocd",
     title: "Conferência Agile Testers 2017",
   },

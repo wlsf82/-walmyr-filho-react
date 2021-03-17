@@ -9,12 +9,6 @@ import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 const topCourses = [
   {
     id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
-    title: "Testes automatizados",
-    description: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
-  },
-  {
-    id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-basico",
     title: "Cypress básico",
     description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas",
@@ -24,6 +18,12 @@ const topCourses = [
     href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario#",
     title: "Cypress intermediário",
     description: "Curso prático sobre como otimizar testes de GUI utilizando chamadas de APIs",
+  },
+  {
+    id: uuid(),
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-avancado/",
+    title: "Cypress avançado",
+    description: "Curso prático sobre como testar o frontend desacoplado do backend",
   },
 ];
 

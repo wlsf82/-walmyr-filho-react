@@ -6,7 +6,7 @@ import ThinBanner from "../ThinBanner";
 
 import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 
-const topCourses = [
+const courses1 = [
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-basico",
@@ -21,13 +21,13 @@ const topCourses = [
   },
   {
     id: uuid(),
-    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-avancado/",
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-avancado/?referralCode=92639E4BD579A09A972D",
     title: "Cypress avançado",
     description: "Curso prático sobre como testar o frontend desacoplado do backend",
   },
 ];
 
-const bottomCourses = [
+const courses2 = [
   {
     id: uuid(),
     href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-e-percy-basico",
@@ -36,17 +36,38 @@ const bottomCourses = [
   },
   {
     id: uuid(),
+    href: "https://www.udemy.com/course/boas-praticas-em-automacao-de-testes-com-cypress/?referralCode=53A9772BD676F93DC8A1",
+    title: "Boas práticas com Cypress",
+    description: "Curso prático de boas práticas em automação de testes com Cypress"
+  },
+  {
+    id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
     title: "BackstopJS",
     description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
   },
+];
+
+const courses3 = [
   {
     id: uuid(),
     href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
     title: "Protractor",
     description: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
   },
-];
+  {
+    id: uuid(),
+    href: "https://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
+    title: "backstop-config",
+    description: "Mini-curso prático sobre testes de regressão visual para aplicações web estáticas",
+  },
+  {
+    id: uuid(),
+    href: "https://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
+    title: "Testes automatizados",
+    description: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
+  },
+]
 
 const Courses = () =>
   <StyledCourses>
@@ -61,8 +82,9 @@ const Courses = () =>
           Cursos
         </a>
       </StyledCoursesH2>
-      <TitledContentBlock content={topCourses}/>
-      <TitledContentBlock content={bottomCourses}/>
+      <TitledContentBlock content={courses1}/>
+      <TitledContentBlock content={courses2}/>
+      <TitledContentBlock content={courses3}/>
     </div>
     <ThinBanner />
   </StyledCourses>

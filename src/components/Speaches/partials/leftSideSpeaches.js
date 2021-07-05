@@ -3,23 +3,43 @@ import uuid from "uuid/v4";
 export const leftSideSpeaches = [
   {
     id: uuid(),
-    href: "https://youtu.be/ruSSRfqHTGk",
-    title: "Live #2 TAT - Cypress RWA - 2021"
+    href: 'https://youtu.be/7X8Fzl7rrjw',
+    title: 'Test Automation Talks July 2021'
   },
   {
     id: uuid(),
-    href: "https://youtu.be/rELAb0ZmzJc",
-    title: "Live #1 TAT - Cypress RWA - 2021"
+    href: 'https://youtu.be/iXFVV76YnRQ',
+    title: 'Minas Testing Conference 2021'
   },
   {
     id: uuid(),
-    href: "https://youtu.be/NVKk_hyyuEA",
-    title: "Mentoria TAT - Junho de 2020"
+    href: "https://youtu.be/TTay2ptoFoo",
+    title: "Get Teknical - Junho de 2021"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/RCk3T0MZkUA",
+    title: "Resenha de QAs - Junho de 2021"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/V6JE8YfsgcI",
+    title: "GTS-BA Tech-talk - Abril de 2021"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/kYWRqBAV5Sk",
+    title: "Gente da Qualidade #10 - Abril de 2021"
+  },
+  {
+    id: uuid(),
+    href: "https://youtu.be/o7eLdMLbGMw",
+    title: "Ubitalks Abril de 2021",
   },
   {
     id: uuid(),
     href: "https://youtu.be/4bopG_hlr0I",
-    title: "[mais.dev] - Junho de 2020"
+    title: "mais.dev - Junho de 2020"
   },
   {
     id: uuid(),
@@ -45,15 +65,5 @@ export const leftSideSpeaches = [
     id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
     title: "Agile, Testing & DevOps Amsterdam 2020"
-  },
-  {
-    id: uuid(),
-    href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
-    title: "DevOpsDays Warsaw 2019",
-  },
-  {
-    id: uuid(),
-    href: "https://speakerdeck.com/wlsf82/testes-de-regressao-visual-xpconfbr-2018-online",
-    title: "XP Conf BR Online 2018",
   },
 ];

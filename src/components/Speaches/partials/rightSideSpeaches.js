@@ -3,6 +3,16 @@ import uuid from "uuid/v4";
 export const rightSideSpeaches = [
   {
     id: uuid(),
+    href: "https://www.slideshare.net/walmyrlimasilvafilho/how-to-kill-software-quality-in-five-steps",
+    title: "DevOpsDays Warsaw 2019",
+  },
+  {
+    id: uuid(),
+    href: "https://speakerdeck.com/wlsf82/testes-de-regressao-visual-xpconfbr-2018-online",
+    title: "XP Conf BR Online 2018",
+  },
+  {
+    id: uuid(),
     href: "https://www.slideshare.net/walmyrlimasilvafilho/lessons-learned-as-a-software-engineer-working-at-appearin",
     title: "Agile Tour Lithuania 2017",
   },

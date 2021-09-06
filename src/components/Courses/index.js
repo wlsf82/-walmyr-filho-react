@@ -42,9 +42,9 @@ const courses2 = [
   },
   {
     id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
-    title: "BackstopJS",
-    description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
+    href: "https://www.udemy.com/course/testes-end-to-end-com-cypress/?referralCode=BFC58FC7B29F2F37904D",
+    title: "Testes end-to-end com Cypress",
+    description: "Curso completo de Cypress com integração contínua usando GitHub Actions",
   },
 ];
 
@@ -57,9 +57,9 @@ const courses3 = [
   },
   {
     id: uuid(),
-    href: "https://talkingabouttesting.coursify.me/courses/mini-curso-testes-de-regressao-visual-com-backstop-config",
-    title: "backstop-config",
-    description: "Mini-curso prático sobre testes de regressão visual para aplicações web estáticas",
+    href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
+    title: "BackstopJS",
+    description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
   },
   {
     id: uuid(),

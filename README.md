@@ -10,4 +10,4 @@ Run `npm i` to install the project dependencies.
 
 ## Starting the application
 
-Run `npm start` to start the application.
+Run `npm run start:dev` to start the application in dev mode.

@@ -8,13 +8,13 @@ import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 const courses1 = [
   {
     id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-basico",
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?referralCode=5E367E0C332F3B967B6C",
     title: "Cypress básico",
     description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas",
   },
   {
     id: uuid(),
-    href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario#",
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-intermediario/?referralCode=F14505FB0076672E51A2",
     title: "Cypress intermediário",
     description: "Curso prático sobre como otimizar testes de GUI utilizando chamadas de APIs",
   },
@@ -29,7 +29,7 @@ const courses1 = [
 const courses2 = [
   {
     id: uuid(),
-    href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-e-percy-basico",
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-e-percy-basico/?referralCode=BCA9A82D86243C618DA9",
     title: "Cypress e Percy básico",
     description: "Curso prático sobre testes de comparação de snapshots",
   },
@@ -50,19 +50,19 @@ const courses2 = [
 const courses3 = [
   {
     id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/arquitetura-de-testes-com-protractor",
+    href: "https://www.udemy.com/course/arquitetura-de-testes-com-protractor/?referralCode=1F25C4A584FF02721138",
     title: "Protractor",
     description: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
   },
   {
     id: uuid(),
-    href: "http://talkingabouttesting.coursify.me/courses/testes-de-regressao-visual-com-backstopjs",
+    href: "https://www.udemy.com/course/testes-de-regressao-visual-com-backstopjs/?referralCode=3751623DD59D061311E1",
     title: "BackstopJS",
     description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
   },
   {
     id: uuid(),
-    href: "https://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados",
+    href: "https://www.udemy.com/course/introducao-aos-testes-automatizados/?referralCode=CF49FB40E38C8000DF88",
     title: "Testes automatizados",
     description: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
   },
@@ -74,7 +74,7 @@ const Courses = () =>
       <StyledCoursesH2>
         <a
           id="courses-h2-anchor"
-          href="http://talkingabouttesting.coursify.me"
+          href="https://udemy.com/user/walmyr"
           target="_blank"
           rel="noopener noreferrer"
         >

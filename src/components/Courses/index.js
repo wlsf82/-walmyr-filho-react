@@ -2,7 +2,6 @@ import React from "react";
 import uuid from "uuid/v4";
 
 import TitledContentBlock from "../TitledContentBlock";
-import ThinBanner from "../ThinBanner";
 
 import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 
@@ -86,7 +85,6 @@ const Courses = () =>
       <TitledContentBlock content={courses2}/>
       <TitledContentBlock content={courses3}/>
     </div>
-    <ThinBanner />
   </StyledCourses>
 
 export default Courses;

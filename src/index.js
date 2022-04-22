@@ -24,10 +24,6 @@ function goToTop() {
 
 window.onscroll = () => {
   document.body.scrollTop > 100 || document.documentElement.scrollTop > 100
-    ? setDisplayAttributeOfGoToTopButton("block")
-    : setDisplayAttributeOfGoToTopButton("none");
-}
-
-function setDisplayAttributeOfGoToTopButton(attribute) {
-  goToTopButton.style.display = attribute;
+    ? goToTopButton.style.display = "block"
+    : goToTopButton.style.display = "none"
 }

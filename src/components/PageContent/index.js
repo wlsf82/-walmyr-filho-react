@@ -9,7 +9,6 @@ import BookEnglishMobile from "../BookEnglishMobile";
 import Courses from "../Courses";
 import GoToTopButton from "../GoToTopButton";
 import Introduction from "../Introduction";
-import Services from "../Services";
 import Speaches from "../Speaches";
 
 const PageContent = () =>
@@ -17,7 +16,6 @@ const PageContent = () =>
     <Introduction />
     <Courses />
     <Blog />
-    <Services />
     <Book />
     <BookEnglish />
     <BookEnglishMobile />

@@ -22,12 +22,6 @@ const socialData = [
   },
   {
     id: uuid(),
-    alt: "GitLab",
-    img: gitlabImg,
-    href: "https://gitlab.com/wlsf82",
-  },
-  {
-    id: uuid(),
     alt: "LinkedIn",
     img: linkedinImg,
     href: "https://www.linkedin.com/in/walmyr-lima-e-silva-filho",

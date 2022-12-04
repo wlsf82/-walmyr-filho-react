@@ -30,8 +30,8 @@ const Book = () =>
           <StyledBookH2>{ book }</StyledBookH2>
           <StyledBookH3>{ bookTitle }</StyledBookH3>
           <StyledBookH4>{ bookSubTitle }</StyledBookH4>
-          <p>A collection of best practices to implement automated end-to-end tests in the development process of web applications, using the framework Protractor.</p>
-          <BuyBookButton hrefValue={ bookUrl }>Buy the book</BuyBookButton>
+          <p>A collection of best practices to implement automated end-to-end tests in the development process of web applications, using the Protractor framework.</p>
+          <BuyBookButton hrefValue={ bookUrl }>Buy the book</BuyBookButton>y
         </StyleBookDescription>
       </StyledBookContainer>
     </div>

@@ -27,7 +27,7 @@ const Book = () =>
           <StyledBookH2>{ book }</StyledBookH2>
           <StyledBookH3>{ bookTitle }</StyledBookH3>
           <StyledBookH4>{ bookSubTitle }</StyledBookH4>
-          <p>Neste livro você encontrará uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
+          <p>Uma coleção de boas práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor.</p>
           <BuyBookButton hrefValue={ bookUrl }>Compre o livro</BuyBookButton>
         </StyleBookDescription>
         <a href={bookUrl} target={targetValue} rel={relValue}>

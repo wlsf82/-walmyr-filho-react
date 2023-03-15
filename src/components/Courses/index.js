@@ -47,27 +47,6 @@ const courses2 = [
   },
 ];
 
-const courses3 = [
-  {
-    id: uuid(),
-    href: "https://www.udemy.com/course/arquitetura-de-testes-com-protractor/?referralCode=1F25C4A584FF02721138",
-    title: "Protractor",
-    description: "Curso prático sobre arquitetura de testes end-to-end com o framework Protractor",
-  },
-  {
-    id: uuid(),
-    href: "https://www.udemy.com/course/testes-de-regressao-visual-com-backstopjs/?referralCode=3751623DD59D061311E1",
-    title: "BackstopJS",
-    description: "Curso prático sobre testes de regressão visual com a ferramenta BackstopJS",
-  },
-  {
-    id: uuid(),
-    href: "https://www.udemy.com/course/introducao-aos-testes-automatizados/?referralCode=CF49FB40E38C8000DF88",
-    title: "Testes automatizados",
-    description: "Curso teórico sobre automação de testes em diversas camadas de aplicações",
-  },
-]
-
 const Courses = () =>
   <StyledCourses>
     <div className="wrapper">
@@ -83,7 +62,6 @@ const Courses = () =>
       </StyledCoursesH2>
       <TitledContentBlock content={courses1}/>
       <TitledContentBlock content={courses2}/>
-      <TitledContentBlock content={courses3}/>
     </div>
   </StyledCourses>
 

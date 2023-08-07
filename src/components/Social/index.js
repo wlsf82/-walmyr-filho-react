@@ -2,7 +2,6 @@ import React from "react";
 import uuid from "uuid/v4";
 
 import githubImg from "./assets/github.png";
-import gitlabImg from "./assets/gitlab.png";
 import linkedinImg from "./assets/linkedin.png";
 import wordpressImg from "./assets/wordpress.png";
 import youtubeImg from "./assets/youtube.png";

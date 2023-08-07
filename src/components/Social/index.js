@@ -4,7 +4,6 @@ import uuid from "uuid/v4";
 import githubImg from "./assets/github.png";
 import gitlabImg from "./assets/gitlab.png";
 import linkedinImg from "./assets/linkedin.png";
-import twitterImg from "./assets/twitter.png";
 import wordpressImg from "./assets/wordpress.png";
 import youtubeImg from "./assets/youtube.png";
 
@@ -25,12 +24,6 @@ const socialData = [
     alt: "LinkedIn",
     img: linkedinImg,
     href: "https://www.linkedin.com/in/walmyr-lima-e-silva-filho",
-  },
-  {
-    id: uuid(),
-    alt: "Twitter",
-    img: twitterImg,
-    href: "https://twitter.com/walmyrlimaesilv",
   },
   {
     id: uuid(),

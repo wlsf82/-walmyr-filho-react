@@ -29,7 +29,7 @@ const courses1 = [
 const courses2 = [
   {
     id: uuid(),
-    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-e-percy-basico/?referralCode=BCA9A82D86243C618DA9",
+    href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-e-percy-basico",
     title: "Cypress e Percy básico",
     description: "Curso prático sobre testes de comparação de snapshots",
   },

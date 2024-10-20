@@ -8,9 +8,9 @@ import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 const courses1 = [
   {
     id: uuid(),
-    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?referralCode=5E367E0C332F3B967B6C",
-    title: "Cypress básico",
-    description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas",
+    href: "https://hotmart.com/pt-br/marketplace/produtos/cypress-do-zero-a-nuvem",
+    title: "Cypress, do Zero à Nuvem",
+    description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas até a execução na integração contínua",
   },
   {
     id: uuid(),
@@ -29,9 +29,9 @@ const courses1 = [
 const courses2 = [
   {
     id: uuid(),
-    href: "https://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-e-percy-basico",
-    title: "Cypress e Percy básico",
-    description: "Curso prático sobre testes de comparação de snapshots",
+    href: "https://go.hotmart.com/W95121620B",
+    title: "Cypress Playground",
+    description: "Curso prático de Cypress que aborda desde conceitos básicos até avançados",
   },
   {
     id: uuid(),

@@ -8,7 +8,7 @@ import StyledCourses, { StyledCoursesH2 } from "./StyledCourses";
 const courses1 = [
   {
     id: uuid(),
-    href: "https://hotmart.com/pt-br/marketplace/produtos/cypress-do-zero-a-nuvem",
+    href: "https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?referralCode=5E367E0C332F3B967B6C",
     title: "Cypress, do Zero à Nuvem",
     description: "Curso prático sobre testes automatizados com Cypress utilizando funcionalidades básicas até a execução na integração contínua",
   },

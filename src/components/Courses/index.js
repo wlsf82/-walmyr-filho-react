@@ -29,7 +29,7 @@ const courses1 = [
 const courses2 = [
   {
     id: uuid(),
-    href: "https://go.hotmart.com/W95121620B",
+    href: "https://www.udemy.com/course/cypress-playground/?referralCode=56D642D77624C195062C",
     title: "Cypress Playground",
     description: "Curso prático de Cypress que aborda desde conceitos básicos até avançados",
   },

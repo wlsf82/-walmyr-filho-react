@@ -74,7 +74,7 @@ const Courses = () =>
       <StyledCoursesH2>
         <a
           id="courses-h2-anchor"
-          href="https://udemy.com/user/walmyr"
+          href="https://talking-about-testing.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
